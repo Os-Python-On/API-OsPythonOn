@@ -34,7 +34,7 @@ nav ul li{
     position: relative;
 }
 
-nav ul li:not(:last-child)::after{
+.barra:not(:last-child)::after{
     content: "|";
     color: white;
     position: absolute;
@@ -61,5 +61,47 @@ body{
     margin: 2em;
 }
 
+/* Dropdown header */
 
+ul{
+    list-style: none;
+    background: #15065b;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    background: #15065b;
+    transition: 50%;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+#conteudolink{
+    font-size: 1em;
+}
 /* Seção 1 Home */

@@ -19,22 +19,22 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 
 Sprint | Previsão | Status|
 |------|--------|------|
-|Kick Off geral | dd/mm/aaaa | concluido|
-|Kick Off 1º Semestre | dd/mm/aaaa | concluido|
-|01 | dd/mm/aaaa | em progresso|
-|01 Review | dd/mm/aaaa | a fazer|
-|02|  dd/mm/aaaa| a fazer |
-|02 Review |  dd/mm/aaaa| a fazer |
-|03| dd/mm/aaaa | a fazer|
-|03 Review | dd/mm/aaaa | a fazer|
-|Feira de Soluções|dd/mm/aaaa |a fazer |
+|Kick Off geral | 26/08/ a 30/08 | concluido|
+|Kick Off 1º Semestre | 02/09 a 06/09 | concluido|
+|01 | 09/09 a 20/09 | em progresso|
+|01 Review | 30/09 a 04/10 | a fazer|
+|02| 07/10 a 27/10 | a fazer |
+|02 Review | 28/10 a 01/11 | a fazer |
+|03| 04/11 a 24/11 | a fazer|
+|03 Review | 25/11 a 29/11 | a fazer|
+|Feira de Soluções| 12/12 |a fazer |
 
 
 
 
 
 # Objetivo do Projeto
-Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma GitHub, visando:
+Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias Ágeis como o SCRUM, visando:
 * Centralizar os trabalhos e projetos;
 * Organizar e estruturar as informações;
 * Versionar e controlar as alterações;
@@ -53,21 +53,23 @@ Adicionar video e documentos nessa seção
 ## Tecnologias Utilizadas
 
 * Jira Software
-* Power BI
-* Microsoft Excel
-* Slack
+* Visual Studio Code
+* Google planilhas
+* Github
+* Figma
+* 
 
 
 
 # Backlog do produto
 
 ## Sprint 1. Concepção
-- [x] Defina o propósito do template;
+- [x] Prototipo no Figma;
 - [x] Identifique os elementos principais;
 - [x] Esboce o layout;
 - [x] Escolha cores e fontes;
 - [x] Desenvolva o design;
-- [ ] Teste e revise;
+- [ ] Criar Prototipo da pagina Home;
 - [ ] Documente instruções de uso;
 - [ ] Criação do vídeo;
 - [ ] Finalize e aprovação.

@@ -19,11 +19,14 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 
 Sprint | Previsão | Status|
 |------|--------|------|
-|Kick Off | dd/mm/aaaa | concluido|
-|01 | dd/mm/aaaa | concluido|
-|02|  dd/mm/aaaa| em progresso |
+|Kick Off geral | dd/mm/aaaa | concluido|
+|Kick Off 1º Semestre | dd/mm/aaaa | concluido|
+|01 | dd/mm/aaaa | em progresso|
+|01 Review | dd/mm/aaaa | a fazer|
+|02|  dd/mm/aaaa| a fazer |
+|02 Review |  dd/mm/aaaa| a fazer |
 |03| dd/mm/aaaa | a fazer|
-|04| dd/mm/aaaa |a fazer |
+|03 Review | dd/mm/aaaa | a fazer|
 |Feira de Soluções|dd/mm/aaaa |a fazer |
 
 

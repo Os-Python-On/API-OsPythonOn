@@ -57,22 +57,30 @@ Adicionar video e documentos nessa seção
 * Google planilhas
 * Github
 * Figma
-* 
+  
 
 
 
 # Backlog do produto
 
 ## Sprint 1. Concepção
-- [x] Prototipo no Figma;
-- [x] Identifique os elementos principais;
-- [x] Esboce o layout;
-- [x] Escolha cores e fontes;
-- [x] Desenvolva o design;
-- [ ] Criar Prototipo da pagina Home;
-- [ ] Documente instruções de uso;
-- [ ] Criação do vídeo;
-- [ ] Finalize e aprovação.
+- [x] Criar backlog do produto;*
+- [x] Criar backlog da Sprint;*
+- [x] Prototipo no Figma;*
+- [x] Criar Planilha de horarios de reuniões;*
+- [x] Criar Prototipo da pagina Home;*
+- [X] Juntar Conteúdo Sobre Metodologia Agil;*
+- [X] Jumtar Conteúdo Sobre Scrum;
+- [x] Juntar Conteúdo Sobre Artefatos Scrum;
+- [x] Juntar Conteúdo Sobre Scrum Master; 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ]
+- [ ] Criar Prototipo da pagina Home;*
+- [ ] Desenvolver o Site;
+- [ ] Finalize e aprovação.*
 
 ## Sprint 2. Desenvolvimento do Projeto
 - [ ] Documento passo a passo;

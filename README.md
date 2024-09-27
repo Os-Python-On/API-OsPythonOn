@@ -3,7 +3,7 @@ Repositório do grupo de API da Fatec SJC - Os Python On
 
 # Aprendizado por Projeto Integrado (API)
 
-Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos
+Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos.
 
 # Índice
 * [Objetivo do Projeto](#objetivo-do-projeto)
@@ -31,11 +31,11 @@ Sprint | Previsão | Status|
 
 # Objetivo do Projeto
 Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias Ágeis como o SCRUM, visando:
-* Centralizar os trabalhos e projetos;
-* Organizar e estruturar as informações;
-* Versionar e controlar as alterações;
-* Facilitar o compartilhamento e feedback;
-* Desenvolver habilidades técnicas.
+* Centralizar os trabalhos e projetos
+* Organizar e estruturar as informações
+* Versionar e controlar as alterações
+* Facilitar o compartilhamento e feedback
+* Desenvolver habilidades técnicas
 
 # Funcionalidades e registros (vídeos e apresentações) das sprints
 
@@ -58,12 +58,12 @@ Adicionar video e documentos nessa seção
 # Backlog do produto
 
 ## Sprint 1. Concepção
-- [x] Criar backlog do produto;*
-- [x] Criar backlog da Sprint;*
-- [x] Prototipo no Figma;*
-- [x] Criar Planilha de horarios de reuniões;*
-- [x] Criar Prototipo da pagina Home;*
-- [X] Juntar Conteúdo Sobre Metodologia Agil;*
+- [x] Criar backlog do produto
+- [x] Criar backlog da Sprint
+- [x] Prototipo no Figma
+- [x] Criar Planilha de horarios de reuniões
+- [x] Criar Prototipo da pagina Home
+- [X] Juntar Conteúdo Sobre Metodologia Agil
 - [X] Jumtar Conteúdo Sobre Scrum
 - [x] Juntar Conteúdo Sobre Artefatos Scrum
 - [x] Juntar Conteúdo Sobre Scrum Master
@@ -72,21 +72,19 @@ Adicionar video e documentos nessa seção
 - [x] Revisar os Conteúdos
 - [ ] Criar Prototipo da pagina Home
 - [ ] Desenvolver o Site
-- [ ] Finalização e aprovação
 
 ## Sprint 2. Desenvolvimento do Projeto
-- [ ] Conteúdo aprofundado
+- [ ] Aprofundar conteúdo
+- [ ] Criar novas páginas para os conteúdos
+- [ ] Desenvolver novas perguntas e perguntas mais complexas
+- [ ] Melhorar o design se possível
+- [ ] Colocar o design definitivo
       
 ## Sprint 3 . Implementação
-- [ ] Defina o propósito do template
-- [ ] Identifique os elementos principais
-- [ ] Esboce o layout
-- [ ] Escolha cores e fontes
-- [ ] Desenvolva o design
-- [ ] Teste e revise
-- [ ] Documente instruções de uso
-- [ ] Criação do vídeo
-- [ ] Finalize e aprovação
+- [ ] Site completamente funcional
+- [ ] Conteúdo finalizado
+- [ ] Correção de Bugs
+- [ ] Pequenas melhorias no design do site
   
 # Competências desenvolvidas
 
@@ -102,6 +100,10 @@ Adicionar video e documentos nessa seção
 | Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
 | Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
 | Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
  
 </details>
 
@@ -128,7 +130,7 @@ Adicionar video e documentos nessa seção
 | Team Member   | Leandro Henrique              |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/leandro-henrique-7b8262329/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/LeandroCampos123)        |
 |  Team Member  | Nícolas Ferreira Fernandes                 |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/nicolas-ferreira-fernandes/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/nicolasffe)        |
 |  Team Member  | Ryan Reis Poltronieri                 |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-camargo-915452196/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/iryanreiszs)   |
-|  Team Member  | Pedro Soares      |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gioliveirass) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/pdrsoares)          |
+|  Team Member  | Pedro Soares      |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-soares-276206292/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/pdrsoares)          |
 |  Team Member  | Uanderson Leonardo       |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/uanderson-leonardo-625118272/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/uandleon)          |
-| Team Member   | Luiz Briz              |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/leandro-henrique-7b8262329/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/HerrBriz)        |
+| Team Member   | Luiz Briz              |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/luiz-briz-15225b303/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/HerrBriz)        |
 | Team Member   | Erick Pinheiro              |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/leandro-henrique-7b8262329/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/erickpinheiro01)        |

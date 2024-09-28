@@ -37,10 +37,17 @@ Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias
 * Facilitar o compartilhamento e feedback
 * Desenvolver habilidades técnicas
 
+## MVP
+Criar um site para ensinar sobre SCRUM, onde cada informação dada é de forma direta, simples e mais resumida possível, além de possuir exemplos simples que estão presentes no quotidiano, para que cada leitor consiga aplicá-las facilmente. Para concluir, um questionário para testar a compreensão dele, com diferentes níveis de dificuldade.
+
+## Visão do Produto
+Tornar-se uma grande ajuda para aqueles que visam conhecer sobre a metodologia, um site onde é possível obter diversas informações relacionadas a qualquer instante. 
+Fornecer informações completas sobre todos os tópicos abordados, fazendo com que o leitor possua uma boa base de conhecimento para qualquer atividade relacionada ao Scrum.
+
 # Funcionalidades e registros (vídeos e apresentações) das sprints
 
 Apresentação das funcionalidades
-Confira a seguir uma demonstraão das funcionalidades para cada tipo de usuário do sistema:
+Confira a seguir uma demonstração das funcionalidades para cada tipo de usuário do sistema:
 
 Adicionar video e documentos nessa seção
 
@@ -133,4 +140,4 @@ Adicionar video e documentos nessa seção
 |  Team Member  | Pedro Soares      |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-soares-276206292/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/pdrsoares)          |
 |  Team Member  | Uanderson Leonardo       |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/uanderson-leonardo-625118272/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/uandleon)          |
 | Team Member   | Luiz Briz              |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/luiz-briz-15225b303/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/HerrBriz)        |
-| Team Member   | Erick Pinheiro              |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/leandro-henrique-7b8262329/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/erickpinheiro01)        |
+| Team Member   | Erick Pinheiro              |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/erick-pinheiro-a03b6632b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/erickpinheiro01)        |

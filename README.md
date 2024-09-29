@@ -95,40 +95,6 @@ Adicionar video e documentos nessa seção
   
 # Competências desenvolvidas
 
-## Hard Skill (saber tecnológico)
-<details>
-<summary>Hard Skills desenvolvidas</summary>
-  
-| Tecnologia/Metodologia | Classificação |
-| ---------------------- | ------------- |
-| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
-| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
- 
-</details>
-
-## Soft Skill (saber comportamental)
-<details>
-<summary>Soft Skills desenvolvidas</summary>
-
-| Habilidades | Classificação |
-| ---------------------- | ------------- |
-| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
-| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
-| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-
-</details>
-
 ## Fabio Hiromitsu Nawa
 <details>
 
@@ -245,6 +211,243 @@ Adicionar video e documentos nessa seção
 </details>
 
 </details>
+
+## Nicolas Ferreira
+<details>
+
+## Hard Skill (saber tecnológico)
+<details>
+<summary>Hard Skills desenvolvidas</summary>
+  
+| Tecnologia/Metodologia | Classificação |
+| ---------------------- | ------------- |
+| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+ 
+</details>
+
+## Soft Skill (saber comportamental)
+<details>
+<summary>Soft Skills desenvolvidas</summary>
+
+| Habilidades | Classificação |
+| ---------------------- | ------------- |
+| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
+| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+
+</details>
+
+</details>
+
+
+## Ryan Reis Poltronieri
+<details>
+
+## Hard Skill (saber tecnológico)
+<details>
+<summary>Hard Skills desenvolvidas</summary>
+  
+| Tecnologia/Metodologia | Classificação |
+| ---------------------- | ------------- |
+| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+ 
+</details>
+
+## Soft Skill (saber comportamental)
+<details>
+<summary>Soft Skills desenvolvidas</summary>
+
+| Habilidades | Classificação |
+| ---------------------- | ------------- |
+| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
+| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+
+</details>
+
+</details>
+
+
+## Pedro Soares
+<details>
+
+## Hard Skill (saber tecnológico)
+<details>
+<summary>Hard Skills desenvolvidas</summary>
+  
+| Tecnologia/Metodologia | Classificação |
+| ---------------------- | ------------- |
+| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+ 
+</details>
+
+## Soft Skill (saber comportamental)
+<details>
+<summary>Soft Skills desenvolvidas</summary>
+
+| Habilidades | Classificação |
+| ---------------------- | ------------- |
+| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
+| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+
+</details>
+
+</details>
+
+## Uanderson Leonardo
+<details>
+
+## Hard Skill (saber tecnológico)
+<details>
+<summary>Hard Skills desenvolvidas</summary>
+  
+| Tecnologia/Metodologia | Classificação |
+| ---------------------- | ------------- |
+| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+ 
+</details>
+
+## Soft Skill (saber comportamental)
+<details>
+<summary>Soft Skills desenvolvidas</summary>
+
+| Habilidades | Classificação |
+| ---------------------- | ------------- |
+| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
+| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+
+</details>
+
+</details>
+
+## Luiz Briz
+<details>
+
+## Hard Skill (saber tecnológico)
+<details>
+<summary>Hard Skills desenvolvidas</summary>
+  
+| Tecnologia/Metodologia | Classificação |
+| ---------------------- | ------------- |
+| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+ 
+</details>
+
+## Soft Skill (saber comportamental)
+<details>
+<summary>Soft Skills desenvolvidas</summary>
+
+| Habilidades | Classificação |
+| ---------------------- | ------------- |
+| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
+| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+
+</details>
+
+</details>
+
+## Erick Pinheiro
+<details>
+
+## Hard Skill (saber tecnológico)
+<details>
+<summary>Hard Skills desenvolvidas</summary>
+  
+| Tecnologia/Metodologia | Classificação |
+| ---------------------- | ------------- |
+| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+ 
+</details>
+
+## Soft Skill (saber comportamental)
+<details>
+<summary>Soft Skills desenvolvidas</summary>
+
+| Habilidades | Classificação |
+| ---------------------- | ------------- |
+| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
+| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+
+</details>
+
+</details>
+
 
 
 # Autores

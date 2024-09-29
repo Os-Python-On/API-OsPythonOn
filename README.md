@@ -143,16 +143,16 @@ Adicionar video e documentos nessa seção
   
 | Tecnologia/Metodologia | Classificação |
 | ---------------------- | ------------- |
-| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
-| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| GitHub | ★ ★ ★ ★ ★ ★ ★ ★ ☆ ☆ |
+| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ |
+| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ |
+| Prodct Owner | ★ ★ ★ ☆ ☆ ☆ ☆ ☆ ☆ ☆ |
+| Markdown | ★ ★ ★ ★ ★ ★ ★ ★ ★ ☆ |
+| Git Projects | ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ ☆ |
+| HTML | ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ ☆ |
+| CSS | ★ ★ ★ ☆ ☆ ☆ ☆ ☆ ☆ ☆ |
+| Jira | ★ ★ ★ ★ ★ ★ ★ ★ ★ ☆ |
+| Figma | ★ ★ ★ ★ ★ ★ ★ ★ ☆ ☆ |
  
 </details>
 
@@ -162,12 +162,12 @@ Adicionar video e documentos nessa seção
 
 | Habilidades | Classificação |
 | ---------------------- | ------------- |
-| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
-| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
-| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Colaboração | ★ ★ ★ ★ ★ ★ ★ ★ ☆ ☆ |
+| Proatividade| ★ ★ ★ ★ ★ ★ ★ ★ ☆ ☆ |
+| Pensamento Crítico | ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ ☆ |
+| Gerenciamento de Tempo | ★ ★ ★ ☆ ☆ ☆ ☆ ☆ ☆ ☆ |
+| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ |
+| Resiliência | ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ |
 
 </details>
 

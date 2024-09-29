@@ -7,7 +7,7 @@ Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividad
 
 # Índice
 * [Objetivo do Projeto](#objetivo-do-projeto)
-* [Funcionalidades e registros (vídeos e apresentações) das sprints](#funcionalidades-e-registros-(vídeos-e-apresentações)-das-sprints)
+* [Funcionalidades e registros (vídeos e apresentações) das sprints ](#funcionalidades-e-registros-(vídeos-e-apresentações)-das-sprints)
 * [Backlog do produto](#Backlog-do-produto)
 * [Competências desenvolvidas](#competências-desenvolvidas)
 * [Autores](#autores)
@@ -78,7 +78,7 @@ Adicionar video e documentos nessa seção
 - [x] Juntar Conteúdo Sobre Dev Team
 - [x] Revisar os Conteúdos
 - [x] Criar Prototipo da pagina Home
-- [ ] Desenvolver o Site
+- [x] Desenvolver o Site
 
 ## Sprint 2. Desenvolvimento do Projeto
 - [ ] Aprofundar conteúdo

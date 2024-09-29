@@ -130,7 +130,7 @@ Adicionar video e documentos nessa seção
 </details>
 ## Fabio Hiromitsu Nawa
 <details>
-## ## Hard Skill (saber tecnológico)
+## Hard Skill (saber tecnológico)
 <details>
 <summary>Hard Skills desenvolvidas</summary>
   

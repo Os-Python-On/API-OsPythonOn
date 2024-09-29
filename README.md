@@ -31,6 +31,7 @@ Sprint | Previsão | Status|
 
 # Objetivo do Projeto
 Este projeto tem como objetivo a Criação de um produto em forma de site para nosso Cliente, Professor Antônio Egydio.
+O site deve conter informações sobre a metodologia ágil SCRUM, os artefatos nela utilizados e todos seus artefatos. Todos os processos deverão ter conceitos e fundamentos com referências, bem como a aplicação com exemplos práticos para a plena compreensão do usuário do sistema.
 Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias Ágeis como o SCRUM, visando:
 * Centralizar os trabalhos e projetos
 * Organizar e estruturar as informações

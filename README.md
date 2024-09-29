@@ -113,9 +113,9 @@ Adicionar video e documentos nessa seção
 ## Fabio Hiromitsu Nawa
 <details>
 
-## Hard Skill (saber tecnológico)
-<details>
-<summary>Hard Skills desenvolvidas</summary>
+      ## Hard Skill (saber tecnológico)
+      <details>
+      <summary>Hard Skills desenvolvidas</summary>
   
 | Tecnologia/Metodologia | Classificação |
 | ---------------------- | ------------- |
@@ -132,9 +132,9 @@ Adicionar video e documentos nessa seção
  
 </details>
 
-## Soft Skill (saber comportamental)
-<details>
-<summary>Soft Skills desenvolvidas</summary>
+      ## Soft Skill (saber comportamental)
+      <details>
+      <summary>Soft Skills desenvolvidas</summary>
 
 | Habilidades | Classificação |
 | ---------------------- | ------------- |

@@ -1,5 +1,5 @@
 ## OsPythonOn
-Repositório do grupo de API dos alunos da ***Faculdade de Tecnologia - São José dos Campos - Prof. Jessen Vidal*** - Os Python On
+Repositório do grupo de API dos alunos da `***Faculdade de Tecnologia - São José dos Campos - Prof. Jessen Vidal***` - Os Python On
 
 # Aprendizado por Projeto Integrado (API)
 
@@ -128,6 +128,7 @@ Adicionar video e documentos nessa seção
 | Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
 
 </details>
+
 ## Fabio Hiromitsu Nawa
 <details>
 ## Hard Skill (saber tecnológico)

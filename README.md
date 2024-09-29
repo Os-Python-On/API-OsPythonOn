@@ -128,6 +128,10 @@ Adicionar video e documentos nessa seção
 | Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
 
 </details>
+##bla bla
+<details>
+## blaa blaa
+<details>
 
 # Autores
 |    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |

@@ -551,3 +551,66 @@ footer{
 }
 
 
+/* Modulo 1 */
+
+
+#primeirotitmodu{
+    color: white;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.titmodu{
+    color: white;
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+.pmodu{
+    color: white;
+    margin-top: 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.titmodu2{
+    color: white;
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+.divconteudo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.sec1modulo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.pmodu2{
+    color: white;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+/* Modulos em construção*/
+
+.h1constr{
+    color: white;
+    font-size: 3em;
+}
+
+.secconstr{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+}
+

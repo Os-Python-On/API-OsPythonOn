@@ -72,9 +72,10 @@ Adicionar video e documentos nessa seção
 * Jira Software
 * Visual Studio Code
 * Google planilhas
-* Github
+*  Git / Github
 * Figma
 * HTML / CSS
+* Notion
 
 # Backlog do produto
 

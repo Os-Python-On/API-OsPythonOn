@@ -30,6 +30,7 @@ Sprint | Previsão | Status|
 |Feira de Soluções| 12/12 |a fazer |
 
 # Objetivo do Projeto
+Este projeto tem como objetivo a Criação de um produto em forma de site para nosso Cliente, Professor Antônio Egydio.
 Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias Ágeis como o SCRUM, visando:
 * Centralizar os trabalhos e projetos
 * Organizar e estruturar as informações

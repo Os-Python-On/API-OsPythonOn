@@ -21,7 +21,7 @@ Sprint | Previsão | Status|
 |------|--------|------|
 |Kick Off geral | 26/08/ a 30/08 | concluido|
 |Kick Off 1º Semestre | 02/09 a 06/09 | concluido|
-|Sprint 01 | 09/09 a 20/09 | em progresso|
+|Sprint 01 | 09/09 a 29/09 | em progresso|
 |Sprint 01 Review | 30/09 a 04/10 | a fazer|
 |Sprint 02| 07/10 a 27/10 | a fazer |
 |Sprint 02 Review | 28/10 a 01/11 | a fazer |

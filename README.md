@@ -39,6 +39,12 @@ Deve também conter um formulário para avaliações parciais e finais (com fina
 Tendo como prioridade secundária, o desenvolvimento de Skills importantes para um profissional de TI. Todo material deve ser disponibilizado para o público interno e externo da FATEC.
 
 Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias Ágeis como o SCRUM, visando:
+## Habilidades em Construção
+ .Documentação de Software (Briefing, Wireframes)
+ .Controle de versão (Github)
+ .Processo de Desenvolvimento Ágil (SCRUM)
+ .Lógica de programação (Python)
+ .Comunicação formal falada e escrita (Norma culta)
 * Centralizar os trabalhos e projetos
 * Organizar e estruturar as informações
 * Versionar e controlar as alterações

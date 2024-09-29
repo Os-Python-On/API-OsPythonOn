@@ -10,7 +10,7 @@
     <header>
         <a href="home.html">
         <div class="logo">
-            <img src="logo.png" alt="Logo">
+            <img src="images/logo.png" alt="Logo">
         </div>
     </a>
         <nav class="barra">
@@ -38,7 +38,7 @@
         </nav class="barra">
     </header>
 
-
+<main>
 <section id="secum">
 
 <div id="textohome">
@@ -55,7 +55,7 @@
     </nav>
 </div>
 
-    <img id="imghome" src="imghome.png" alt="Homem e mulher trabalhando">
+    <img id="imghome" src="images/imghome.png" alt="Homem e mulher trabalhando">
         
 </section>
 
@@ -65,7 +65,7 @@
 
 <h2 id="h2quemsomos">QUEM SOMOS</h2>
 
-<img id="imgquemsomos" src="imgquemsomos.png" alt="">
+<img id="imgquemsomos" src="images/imgquemsomos.png" alt="">
 
 <p id="pquemsomos">
     Na Os Python on, nossa paixão por agilidade e colaboração nos impulsiona a transformar a maneira como as equipes se conectam e 
@@ -98,11 +98,12 @@
     <div class="container">
         <div class="flip">
             <div class="frente">
-
+                <img class="imgaprender" src="images/responsabilidade-social.png" alt="">
+                <p class="paprender" >Proteger a Equipe</p>
             </div>
 
             <div class="tras">
-                <p>Leite</p>
+                <p class="paprender2" >Atua como um escudo para proteger a equipe de interrupções externas e distrações, permitindo que eles se concentrem nas entregas e no trabalho colaborativo.</p>
             </div>
         </div><!--flip-->
     </div><!--container-->
@@ -110,12 +111,12 @@
     <div class="container">
         <div class="flip">
             <div class="frente">
-
-
+        <img class="imgaprender" src="images/afirmativo.png" alt="melhoria">
+        <p class="paprender">Promover a Melhoria Contínua</p>
             </div>
 
             <div class="tras">
-                <p>Leite</p>
+                <p class="paprender2">Incentiva a equipe a refletir sobre seu desempenho e buscar maneiras de melhorar constantemente seus processos e resultados.</p>
             </div>
         </div><!--flip-->
     </div><!--container-->
@@ -124,11 +125,12 @@
     <div class="container">
         <div class="flip">
             <div class="frente">
-
+                <img class="imgaprender" src="images/comunicacao.png" alt="">
+                <p class="paprender">Facilitar a Comunicação</p>
             </div>
 
             <div class="tras">
-                <p>Leite</p>
+                <p class="paprender2">Ajuda a facilitar a comunicação e a colaboração entre os membros da equipe, garantindo que todos estejam alinhados com os objetivos do projeto.</p>
             </div>
         </div><!--flip-->
     </div><!--container-->
@@ -138,15 +140,78 @@
 
     <section id="faq" >
 
-
-
-
-
-
-
-
+        <div class="wrapper">
+            <h4 id="h4duvidas">Perguntas frequentes</h4>
+      
+            <div class="faq">
+              <button class="accordion">
+                ➤ Terei uma explicação completa sobre Scrum Master?
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="pannel">
+                <p>
+                ❯ Sim! Em nosso curso você terá uma explicação completa e detalhada sobre Scrum Master aproveitando 
+                  o máximo de nossa dinamica de ensino.
+                </p>
+              </div>
+            </div>
+      
+            <div class="faq">
+              <button class="accordion">
+                ➤ Poderei tester meus conhecimentos?
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="pannel">
+                <p>
+                ❯ Sim! Ao final de cada módulo terá um questionário de 5 perguntas, e um no final do último módulo 
+                  para saber o resultado geral do seu estudo.
+                </p>
+              </div>
+            </div>
+      
+            <div class="faq">
+              <button class="accordion">
+                ➤ Poderei acessar o curso por celulares ou apenas computador?
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="pannel">
+                <p>
+                ❯ Poderá acessar sem problemas pelo celular
+                </p>
+              </div>
+            </div>
+      
+      
+          <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+      
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                this.parentElement.classList.toggle("active");
+      
+                var pannel = this.nextElementSibling;
+      
+                if (pannel.style.display === "block") {
+                  pannel.style.display = "none";
+                } else {
+                  pannel.style.display = "block";
+                }
+              });
+            }
+          </script>
 
 
     </section>
+
+</main>
+
+    <footer> 
+        
+    <a href="https://github.com/Os-Python-On/API-OsPythonOn">
+        <img id="gitfooter" src="images/github.png" alt="GitHub">
+    </a>
+        <p id="pfooter" >© Copyright Os Python On 2024</p> </footer>
 </body>
 </html>

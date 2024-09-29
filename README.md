@@ -36,6 +36,8 @@ O site deve conter informações sobre a metodologia ágil SCRUM, os artefatos n
 
 Deve também conter um formulário para avaliações parciais e finais (com finalização). O projeto foca na disseminação dos processos para que os usuários possam replicar em seus futuros projetos.
 
+Tendo como prioridade secundária, o desenvolvimento de Skills importantes para um profissional de TI. Todo material deve ser disponibilizado para o público interno e externo da FATEC.
+
 Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias Ágeis como o SCRUM, visando:
 * Centralizar os trabalhos e projetos
 * Organizar e estruturar as informações

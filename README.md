@@ -125,7 +125,7 @@ Adicionar video e documentos nessa seção
   
 # Competências desenvolvidas
 
-## Fabio Hiromitsu Nawa
+## Fabio Hiromitsu Nawab (PO)
 <details>
 
 ## Hard Skill (saber tecnológico)
@@ -166,7 +166,7 @@ Adicionar video e documentos nessa seção
 
 </details>
 
-## Gustavo Felipe Morais
+## Gustavo Felipe Morais (SM)
 <details>
 
 ## Hard Skill (saber tecnológico)
@@ -205,7 +205,7 @@ Adicionar video e documentos nessa seção
 
 </details>
 
-## Leandro Henrique
+## Leandro Henrique (ST)
 <details>
 
 ## Hard Skill (saber tecnológico)
@@ -244,47 +244,7 @@ Adicionar video e documentos nessa seção
 
 </details>
 
-## Nicolas Ferreira
-<details>
-
-## Hard Skill (saber tecnológico)
-<details>
-<summary>Hard Skills desenvolvidas</summary>
-  
-| Tecnologia/Metodologia | Classificação |
-| ---------------------- | ------------- |
-| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
-| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
- 
-</details>
-
-## Soft Skill (saber comportamental)
-<details>
-<summary>Soft Skills desenvolvidas</summary>
-
-| Habilidades | Classificação |
-| ---------------------- | ------------- |
-| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
-| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
-| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-
-</details>
-
-</details>
-
-
-## Ryan Reis Poltronieri
+## Nicolas Ferreira (ST)
 <details>
 
 ## Hard Skill (saber tecnológico)
@@ -324,7 +284,7 @@ Adicionar video e documentos nessa seção
 </details>
 
 
-## Pedro Soares
+## Ryan Reis Poltronieri (ST)
 <details>
 
 ## Hard Skill (saber tecnológico)
@@ -363,7 +323,8 @@ Adicionar video e documentos nessa seção
 
 </details>
 
-## Uanderson Leonardo
+
+## Pedro Soares (ST)
 <details>
 
 ## Hard Skill (saber tecnológico)
@@ -402,7 +363,7 @@ Adicionar video e documentos nessa seção
 
 </details>
 
-## Luiz Briz
+## Uanderson Leonardo (ST)
 <details>
 
 ## Hard Skill (saber tecnológico)
@@ -441,7 +402,46 @@ Adicionar video e documentos nessa seção
 
 </details>
 
-## Erick Pinheiro
+## Luiz Briz (ST)
+<details>
+
+## Hard Skill (saber tecnológico)
+<details>
+<summary>Hard Skills desenvolvidas</summary>
+  
+| Tecnologia/Metodologia | Classificação |
+| ---------------------- | ------------- |
+| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| HTML | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| CSS | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Jira | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Figma | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+ 
+</details>
+
+## Soft Skill (saber comportamental)
+<details>
+<summary>Soft Skills desenvolvidas</summary>
+
+| Habilidades | Classificação |
+| ---------------------- | ------------- |
+| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
+| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
+| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+
+</details>
+
+</details>
+
+## Erick Pinheiro (ST)
 <details>
 
 ## Hard Skill (saber tecnológico)

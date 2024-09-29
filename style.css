@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* Header */
 
 *{
@@ -19,7 +19,7 @@ header{
 }
 
 .logo img{
-    width: 30%;
+    width: 50%;
 }
 
 nav{
@@ -62,8 +62,8 @@ nav ul li a{
 
 body{
     margin: 2em;
-    margin-left: 8em;
-    margin-right: 8em;
+    margin-left: 10em;
+    margin-right: 10em;
     background-color: #15065b;
 }
 
@@ -134,9 +134,9 @@ ul li:hover ul.dropdown{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 6em;
-    margin-right: 6em;
-    margin-top: 5em;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10%;
 }
 
 #imghome{
@@ -200,8 +200,8 @@ input[type="submit"]:hover{
     color: white;
     font-size: 1em;
     font-family: "Kanit", sans-serif;
-    margin-left: 8em;
-    margin-right: 8em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* Seção 3 Home */
@@ -217,6 +217,7 @@ input[type="submit"]:hover{
     color: white;
     font-size: 3em;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.2em;
 }
 
 .fundosec3 {
@@ -228,7 +229,7 @@ input[type="submit"]:hover{
     margin: 2em;
     padding: 0.4em;
     transition: 0.8s;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-right: 1em;
   }
   
@@ -252,13 +253,14 @@ input[type="submit"]:hover{
 
 /* Seção Conceito*/
 
-main{
+#maincon{
     text-align: center;
     padding: 40px 20px;
 }
 
 .intro{
     text-align: center;
+    margin-top: 3em;
 }
 
 .intro h1{
@@ -318,3 +320,234 @@ main{
 .start-button:hover{
     background-color: #d0d0d0;
 }
+
+
+#artflips{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 3em;
+}
+
+.container:hover .flip{
+    transform: rotateY(180deg);
+}
+
+.flip{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+
+.frente,.tras{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #0000001b;
+    backface-visibility: hidden;
+}
+
+.frente{
+    background-color: rgb(197, 197, 197);
+    background-size: cover;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.tras{
+    background-color: #000000;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.imgaprender{
+    width: 7em;
+}
+
+.paprender{
+    font-size: 1.5em;
+    font-family: "Kanit", sans-serif;
+}
+
+.paprender2{
+   font-family: "Kanit", sans-serif;
+   font-size: 0.8em;
+   margin-left: 1em;
+   margin-right: 1em;
+}
+
+/* Seção FAQ*/
+
+
+.wrapper {
+    max-width: 75%;
+    margin: auto;
+  }
+  
+  .wrapper > p,
+  .wrapper > h1 {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+  
+  .wrapper > h1 {
+    letter-spacing: 3px;
+  }
+  
+  .accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .accordion i {
+    font-size: 1.6rem;
+  }
+  
+  .active,
+  .accordion:hover {
+    background-color: #f1f7f5;
+  }
+  .pannel {
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #f1f7f5;
+    display: none;
+  }
+  .pannel p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1rem;
+    line-height: 1;
+  }
+  
+  .faq {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+  }
+  .faq.active {
+    border: none;
+  }
+  
+  #h4duvidas{
+    color: white;
+    margin-top: 3em;
+    font-size: 2em;
+  }
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6em;
+}
+
+#gitfooter{
+    width: 2em;
+    margin-bottom: 0.5em;
+}
+
+#pfooter{
+    color: white;
+}
+
+/* Quest 1 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+.app{
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 60px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 200PX;
+}
+.app h1{
+    font-size: 25px;
+    color: #1823bd;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #1823bd;
+    font-weight: 600;
+}
+.btn {
+    background: white;
+    color: #1823bd;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #1823bd;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: #222;
+    color: #fff;
+}
+#next-btn{
+    background-color: #1823bd;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+.correct{
+    background: #9aeabc;
+}
+.incorrect{
+    background: #ff9393;
+}
+
+

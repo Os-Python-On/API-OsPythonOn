@@ -65,7 +65,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 Adicionar video e documentos nessa seção
 
-[![Vídeo Demonstrativo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fpt%2Ffree-png-vrfpu&psig=AOvVaw0DXIuI-f90H6NhmCFhO_mV&ust=1727746369441000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjCopfD6YgDFQAAAAAdAAAAABAE)](https://youtu.be/hN4VUBSensU)
+[![Vídeo Demonstrativo](https://w7.pngwing.com/pngs/760/274/png-transparent-design-material-youtube-play-square-video-web-material-square-apps-icon.png)](https://youtu.be/hN4VUBSensU)
 
 ## Tecnologias Utilizadas
 

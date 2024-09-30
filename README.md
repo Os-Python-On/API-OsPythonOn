@@ -65,7 +65,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 Adicionar video e documentos nessa seção
 
-[![Vídeo Demonstrativo](https://youtu.be/hN4VUBSensU)](https://youtu.be/hN4VUBSensU)
+[![Vídeo Demonstrativo](h[ttps://youtu.be/hN4VUBSensU](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fpt%2Ffree-png-vrfpu&psig=AOvVaw0DXIuI-f90H6NhmCFhO_mV&ust=1727746369441000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjCopfD6YgDFQAAAAAdAAAAABAE)](https://youtu.be/hN4VUBSensU)
 
 ## Tecnologias Utilizadas
 

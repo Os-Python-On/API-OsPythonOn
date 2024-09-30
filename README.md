@@ -65,7 +65,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 Adicionar video e documentos nessa seção
 
-[![Vídeo Demonstrativo](https://static.vecteezy.com/system/resources/previews/001/186/943/non_2x/green-play-button-png.png)](https://youtu.be/hN4VUBSensU)
+[![Vídeo Demonstrativo](https://cdn-icons-png.flaticon.com/512/2468/2468825.png)](https://youtu.be/hN4VUBSensU)
 
 ## Tecnologias Utilizadas
 

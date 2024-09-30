@@ -65,7 +65,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 Adicionar video e documentos nessa seção
 
-[![Vídeo Demonstrativo]([https://img.youtube.com/vi/pBy1zgt0XPc/0.jpg)](https://www.youtube.com/embed/pBy1zgt0XPc](https://youtu.be/hN4VUBSensU))
+[![Vídeo Demonstrativo]([https://img.youtube.com/vi/pBy1zgt0XPc/0.jpg)]((https://youtu.be/hN4VUBSensU)))
 
 ## Tecnologias Utilizadas
 

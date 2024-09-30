@@ -19,15 +19,15 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 
 Sprint | Previsão | Status|
 |------|--------|------|
-|Kick Off geral | 26/08/ a 30/08 | concluido|
-|Kick Off 1º Semestre | 02/09 a 06/09 | concluido|
-|Sprint 01 | 09/09 a 29/09 | em progresso|
-|Sprint 01 Review | 30/09 a 04/10 | a fazer|
-|Sprint 02| 07/10 a 27/10 | a fazer |
-|Sprint 02 Review | 28/10 a 01/11 | a fazer |
-|Sprint 03| 04/11 a 24/11 | a fazer|
-|Sprint 03 Review | 25/11 a 29/11 | a fazer|
-|Feira de Soluções| 12/12 |a fazer |
+|Kick Off geral | 26/08/ a 30/08 | Concluido|
+|Kick Off 1º Semestre | 02/09 a 06/09 | Concluido|
+|Sprint 01 | 09/09 a 29/09 | Concluido |
+|Sprint 01 Review | 30/09 a 04/10 | Em progresso |
+|Sprint 02| 07/10 a 27/10 | A fazer |
+|Sprint 02 Review | 28/10 a 01/11 | A fazer |
+|Sprint 03| 04/11 a 24/11 | A fazer|
+|Sprint 03 Review | 25/11 a 29/11 | A fazer|
+|Feira de Soluções| 12/12 | A fazer |
 
 # Objetivo do Projeto
 Este projeto tem como objetivo a Criação de um produto em forma de site para nosso Cliente, Professor Antônio Egydio.

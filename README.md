@@ -65,7 +65,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 Adicionar video e documentos nessa seção
 
-[![Vídeo Demonstrativo](https://w7.pngwing.com/pngs/760/274/png-transparent-design-material-youtube-play-square-video-web-material-square-apps-icon.png)](https://youtu.be/hN4VUBSensU)
+[![Vídeo Demonstrativo](https://cdn-icons-png.flaticon.com/512/0/375.png)](https://youtu.be/hN4VUBSensU)
 
 ## Tecnologias Utilizadas
 

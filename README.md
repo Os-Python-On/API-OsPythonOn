@@ -65,7 +65,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 Adicionar video e documentos nessa seção
 
-[![Vídeo Demonstrativo](https://cdn-icons-png.flaticon.com/512/0/375.png)](https://youtu.be/hN4VUBSensU)
+[![Vídeo Demonstrativo](https://w7.pngwing.com/pngs/261/757/png-transparent-computer-icons-google-play-music-button-play-angle-rectangle-triangle-thumbnail.png)](https://youtu.be/hN4VUBSensU)
 
 ## Tecnologias Utilizadas
 

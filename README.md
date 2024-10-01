@@ -105,8 +105,8 @@ Adicionar video e documentos nessa seção
 - [x] Juntar Conteúdo Sobre Scrum Master
 - [x] Juntar Conteúdo Sobre PO
 - [x] Juntar Conteúdo Sobre Dev Team
-- [x] Revisar os Conteúdos
 - [x] Criar Prototipo da pagina Home
+- [x] Revisar os Conteúdos
 - [x] Desenvolver o Site
 
 ## Sprint 2. Desenvolvimento do Projeto

@@ -99,7 +99,6 @@ Adicionar video e documentos nessa seção
 - [x] Criar backlog da Sprint
 - [x] Prototipo no Figma
 - [x] Criar Planilha de horarios de reuniões
-- [x] Criar Prototipo da pagina Home
 - [X] Juntar Conteúdo Sobre Metodologia Agil
 - [X] Jumtar Conteúdo Sobre Scrum
 - [x] Juntar Conteúdo Sobre Artefatos Scrum

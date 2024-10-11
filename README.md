@@ -80,19 +80,20 @@ Adicionar video e documentos nessa seção
 # Backlog do produto
 
 | Prioridade | User Stories | Estimativa | Sprint |
-| ---------- | ------------ | ---------- | ------ |
-| Alta | Como visitante do site eu quero um conteúdo inicial para saber o básico sobre metodologia ágil e Scrum | 6 | 1 |
-| Alta | Como visitante do site eu quero uma linguagem simples para entender o conteúdo | 5 | 1, 2, 3 |
-| Média | Como visitante do site eu quero exemplos comuns para conseguir aplicar no meu cotidiano | 2 | 1, 2, 3 |
+| --------- | ------------- | ---------- | ------ |
+| Alta | Como visitante do site eu quero um conteúdo inicial para saber o básico sobre metodologia ágil e Scrum | 5 | 1 |
+| Média | Como visitante do site eu quero exemplos comuns para conseguir aplicar no meu cotidiano | 1 | 1, 2, 3 |
 | Alta | Como visitante do site eu quero um questionário para confirmar meu entendimento sobre o assunto | 4 | 2 |
-| Média | Como visitante do site eu quero uma revisão após os questionários, assim eu sei o que errei e o que preciso estudar novamente | 3 | 1, 2, 3 |
-| Média | Como visitante do site eu quero uma interface organizada para conseguir encontrar o que preciso facilmente | 6 | 1, 2, 3 |
+| Média | Como visitante do site eu quero uma revisão após os questionários, assim eu sei o que errei e o que preciso estudar novamente | 3 | 2 |
+| Média | Como visitante do site eu quero uma interface organizada para conseguir encontrar o que preciso facilmente | 6 | 1, 2 |
 | Baixa | Como visitante do site eu quero as referências no conteúdo que estou vendo para ter noção da veracidade da informação, além de conseguir estudar mais | 1 | 1, 2 |
-| Média | Como cliente eu quero uma página Home para ter uma ideia geral do que esperar do site | 2 | 1, 2 |
-| Média | Como visitante do site eu quero questões do diversos níveis para testar o conhecimento com perguntas fáceis, médias e difíceis | 5 | 2 |
-| Alta | Como visitante do site eu quero um conteúdo intermediário para conseguir me aprofundar | 6 | 2 |
-| Alta | Como cliente eu quero o site totalmente funcional, sem erros para que os usuários não tenham problemas | 6 | 3 |
-| Baixa | Como cliente eu quero um design no figma para ter noção do design final | 1 | 1 |
+| Média | Como cliente eu quero uma página Home para ter uma ideia geral do que esperar do site | 4 | 1, 2 |
+| Média | Como visitante do site eu quero questões do diversos níveis para testar o conhecimento com perguntas fáceis, médias e difíceis | 4 | 2 |
+| Média | Como visitante do site eu quero um conteúdo intermediário para conseguir me aprofundar | 4 | 2 |
+| Média | Como cliente eu quero o site totalmente funcional, sem erros para que os usuários não tenham problemas | 6 | 3 |
+| Alta | Como cliente eu quero um design no figma para ter noção do design final | 3 | 1 |
+| Alta | Como cliente eu quero um protótipo do questionário para ter uma ideia de como ficará no final | 3 | 1 |
+| Alta | Como cliente eu quero um protótipo da página Home para ter noção de como será estruturada | 1 | 1 |
 
 ## Sprint 1. Concepção
 - [x] Criar backlog do produto

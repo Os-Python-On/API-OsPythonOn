@@ -52,7 +52,7 @@ Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias
 * Desenvolver habilidades técnicas
 
 ## MVP
-Criar um site para ensinar sobre SCRUM, onde cada informação dada é de forma direta, simples e mais resumida possível, além de possuir exemplos simples que estão presentes no quotidiano, para que cada leitor consiga aplicá-las facilmente. Para concluir, um questionário para testar a compreensão dele, com diferentes níveis de dificuldade.
+![MVP](https://github.com/user-attachments/assets/5b229df8-732c-4ffd-864e-da4295e5a2e9)
 
 ## Visão do Produto
 Tornar-se uma grande ajuda para aqueles que visam conhecer sobre a metodologia, um site onde é possível obter diversas informações relacionadas a qualquer instante. 

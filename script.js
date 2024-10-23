@@ -1,29 +1,29 @@
 const question = [
     {
-        question: "Qual é a responsabilidade do PO?",
+        question: "Qual é a definição de Scrum e qual a sua principal característica?",
         answers: [
-            { text: "Conversar o cliente para descobrir os requisitos do produto.", correct: true },
-            { text: "Coordenar o time, distribuindo as tarefas para cada pessoa.", correct: false },
-            { text: "Ser comunicativo e conversar com o cliente para tranquilizá-lo sobre o produto.", correct: false },
-            { text: "Ter conhecimento técnico e concluir os requisitos dados pelo cliente.", correct: false },
+            { text: "É uma metodologia ágil baseada em sprints que assegura revisões e aperfeiçoamentos constantes. ", correct: true },
+            { text: "É um modelo de negócios tradicional que segue um cronograma fixo.", correct: false },
+            { text: "É um sistema rígido de desenvolvimento de software.", correct: false },
+            { text: "É uma técnica de gestão de tempo que não permite mudanças.", correct: false },
         ]
     },
     {
-        question: "Por que o Product Owner é considerado a voz do cliente dentro da equipe?",
+        question: "Qual á função do Scrum Master?",
         answers: [
-            { text: "Porque ele decide sozinho quais serão os requisitos do projeto.", correct: false },
-            { text: "Porque ele faz parte da equipe do cliente.", correct: false },
-            { text: "Porque ele representa as necessidades do cliente para o time.", correct: true },
-            { text: "Porque ele se reporta diretamente ao CEO da empresa.", correct: false },
+            { text: " Ele é responsável pela gestão financeira do projeto.", correct: false },
+            { text: "Ele decide as funcionalidades do produto a serem desenvolvidas.", correct: false },
+            { text: "Ele garante que a equipe siga a metodologia Scrum, atuando como líder e facilitador.", correct: true },
+            { text: "Ele elabora os documentos técnicos do projeto.", correct: false },
         ]
     },
     {
-        question: "Por que é importante que o Product Owner tenha uma visão crítica em relação às exigências do cliente?",
+        question: "Qual é o principal objetivo do Dev Team dentro do Scrum?",
         answers: [
-            { text: "Para evitar aceitar demandas que sobrecarreguem a equipe", correct: true },
-            { text: "Para decidir quais membros da equipe podem trabalhar em cada tarefa", correct: false },
-            { text: "Para saber quais tecnologias usar no desenvolvimento", correct: false },
-            { text: "Para aceitar todas as exigências e agradar o cliente", correct: false },
+            { text: "Criar o produto através de design, teste e construção.", correct: true },
+            { text: "Coordenar as reuniões diárias da equipe.", correct: false },
+            { text: "Definir os requisitos do cliente para o projeto.", correct: false },
+            { text: "Avaliar o desempenho do Product Owner.", correct: false },
         ]
     },
     {
@@ -33,6 +33,15 @@ const question = [
             { text: "Especialização em design gráfico e testes de software", correct: false },
             { text: "Visão crítica, comunicação, interesse, capacidade de fazer boas perguntas e trabalho em equipe", correct: true },
             { text: "Capacidade de gerenciar o orçamento do projeto e liderança", correct: false },
+        ]
+    },
+    {
+        question: "Quais são os três principais pilares do Scrum?",
+        answers: [
+            { text: "Transparência, inspeção, adaptação.", correct: true },
+            { text: "Planejamento, execução, finalização.", correct: false },
+            { text: "Inovação, colaboração, eficiência.", correct: false },
+            { text: "Análise, desenvolvimento, entrega.", correct: false },
         ]
     }
 ];

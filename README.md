@@ -123,7 +123,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 - [x] Conteúdo sobre Scrum e transformações digitais
 - [x] Desenvolver novas perguntas e perguntas mais complexas
 - [x] Melhorar o design se possível
-- [ ] Criar novas páginas para os conteúdos
+- [x] Criar novas páginas para os conteúdos
       
 ## Sprint 3 . Implementação
 - [ ] Site completamente funcional

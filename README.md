@@ -22,7 +22,7 @@ Sprint | Previsão | Status|
 |Kick Off geral | 26/08/ a 30/08 | Concluido|
 |Kick Off 1º Semestre | 02/09 a 06/09 | Concluido|
 |Sprint 01 | 09/09 a 29/09 | Concluido |
-|Sprint 01 Review | 30/09 a 04/10 | Em progresso |
+|Sprint 01 Review | 30/09 a 04/10 | Concluído |
 |Sprint 02| 07/10 a 27/10 | A fazer |
 |Sprint 02 Review | 28/10 a 01/11 | A fazer |
 |Sprint 03| 04/11 a 24/11 | A fazer|
@@ -63,8 +63,6 @@ Fornecer informações completas sobre todos os tópicos abordados, fazendo com 
 Apresentação das funcionalidades
 Confira a seguir uma demonstração das funcionalidades para cada tipo de usuário do sistema:
 
-Adicionar video e documentos nessa seção
-
 [![Vídeo Demonstrativo](https://cdn-icons-png.flaticon.com/512/2468/2468825.png)](https://youtu.be/hN4VUBSensU)
 
 ## Tecnologias Utilizadas
@@ -76,6 +74,7 @@ Adicionar video e documentos nessa seção
 * Figma
 * HTML / CSS
 * Notion
+* AWS
 
 # Backlog do produto
 
@@ -99,7 +98,7 @@ Adicionar video e documentos nessa seção
 - [x] Prototipo no Figma
 - [x] Criar Planilha de horarios de reuniões
 - [X] Juntar Conteúdo Sobre Metodologia Agil
-- [X] Jumtar Conteúdo Sobre Scrum
+- [X] Juntar Conteúdo Sobre Scrum
 - [x] Juntar Conteúdo Sobre Artefatos Scrum
 - [x] Juntar Conteúdo Sobre Scrum Master
 - [x] Juntar Conteúdo Sobre PO
@@ -109,11 +108,22 @@ Adicionar video e documentos nessa seção
 - [x] Desenvolver o Site
 
 ## Sprint 2. Desenvolvimento do Projeto
-- [ ] Aprofundar conteúdo
+- [x] Conteúdo sobre Pilares do Scrum
+- [x] Conteúdo sobre Eventos do Scrum
+- [x] Conteúdo sobre Time-boxing e iterações
+- [x] Conteúdo sobre Princípios de Auto-organização e cross-funcionalidade
+- [x] Melhoria no conteúdo sobre Definition of Done
+- [x] Melhoria no Conteúdo sobre Definition of Ready
+- [x] Conteúdo sobre Burndown charts e monitoramento do progresso
+- [x] Conteúdo sobre outras metodologias (resumido)
+- [x] Conteúdo sobre escalabilidade do Scrum
+- [x] Conteúdo sobre Vantagens e desafios na implementação do Scrum
+- [x] Conteúdo sobre Case studies e aplicações reais
+- [x] Conteúdo sobre ferramentas para gestão de Scrum
+- [x] Conteúdo sobre Scrum e transformações digitais
+- [x] Desenvolver novas perguntas e perguntas mais complexas
+- [x] Melhorar o design se possível
 - [ ] Criar novas páginas para os conteúdos
-- [ ] Desenvolver novas perguntas e perguntas mais complexas
-- [ ] Melhorar o design se possível
-- [ ] Colocar o design definitivo
       
 ## Sprint 3 . Implementação
 - [ ] Site completamente funcional
@@ -123,7 +133,7 @@ Adicionar video e documentos nessa seção
   
 # Competências desenvolvidas
 
-## Fabio Hiromitsu Nawab (PO)
+## Fabio Hiromitsu Nawa (PO)
 <details>
 
 ## Hard Skill (saber tecnológico)

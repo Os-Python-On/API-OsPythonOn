@@ -65,6 +65,10 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 [![Vídeo Demonstrativo](https://cdn-icons-png.flaticon.com/512/2468/2468825.png)(https://youtu.be/2_Dmvu4s8dQ)]
 
+# Funcionalidades
+
+![Sprint2](https://github.com/user-attachments/assets/0d404052-ee0b-4c0e-80fb-ca9305f3dd99)
+
 ## Tecnologias Utilizadas
 <p align="left">
     <ul>

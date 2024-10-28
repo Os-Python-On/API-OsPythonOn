@@ -65,44 +65,10 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 [![Vídeo Demonstrativo](https://cdn-icons-png.flaticon.com/512/2468/2468825.png)(https://youtu.be/2_Dmvu4s8dQ)]
 
-# Funcionalidades
-
-![Sprint2](https://github.com/user-attachments/assets/0d404052-ee0b-4c0e-80fb-ca9305f3dd99)
-
-## Tecnologias Utilizadas
-<p align="left">
-    <ul>
-      <li>  
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="50px" />  
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50px" /> 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50px" />
-      </li>
-      <li>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="50px" /> 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="50px"> 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width="50px">
-      </li>
-      <li>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="50px"> 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="50px"> 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="50px">
-      </li>
-        <li>
-            <img src="![image](https://github.com/user-attachments/assets/9a784dcf-54ac-4e27-9d3c-e63c66f863b0)">
-
-        </li>
-   </ul>
-</p>
-
-
 ## Tecnologias Utilizadas
 
 * Google planilhas
-
-
-
 * AWS
-
 * Flask
 
 # Backlog do produto

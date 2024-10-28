@@ -3,35 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/roxa.png" type="image/x-icon">
     <title>Os Python On</title>
-    <link rel="stylesheet" href="style.css">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <a href="home.html">
-        <div class="logo">
-            <img src="images/logo.png" alt="Logo">
-        </div>
-    </a>
-        <nav class="barra">
-            <ul class="barra">
-                <li class="barra" ><a class="links" href="home.html">Home</a></li>
-                <li class="barra" ><a class="links" href="quest1.html">Questões</a></li>
-                
-             
-                <li class="barra">
-                    <a id="conteudolink" href="#">Conteúdo</a>
-                    <ul class="dropdown"> 
-                        <li><a class="links" href="modulo1.html">Módulo 1</a></li>
-                        <li><a class="links" href="modulo2.html">Módulo 2</a></li>
-                        <li><a class="links" href="modulo3.html">Módulo 3</a></li>
-                        <li><a class="links" href="modulo4.html">Módulo 4</a></li>
-                        <li><a class="links" href="modulo5.html">Módulo 5</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav class="barra">
-    </header>
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="index.html" class="nav__logo">
+                 <img class="logo" src="assets/images/roxa.png" alt=""> Os Python On
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="index.html" class="nav__link">Home</a></li>
+
+             <li><a href="conceito.html" class="nav__link">Conceito</a></li>
+
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                      Modulos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+
+                       <!--=============== DROPDOWN SUBMENU ===============-->
+                       <li class="dropdown__subitem">
+                        <a href="modulo1.html">
+                           <div class="dropdown__link">
+                             <p>Modulo</p>1<i class="ri-add-line dropdown__add"></i>
+                           </div>
+                        </a>
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Definição
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Origem
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Características 
+                                </a>
+                             </li>
+
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   Transparência 
+                                </a>
+                             </li>
+
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Inspeção
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Adaptação 
+                                </a>
+                             </li>
+
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   Product Owner 
+                                </a>
+                             </li>
+
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Scrum Master 
+                                </a>
+                             </li>
+
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Dev Team 
+                                </a>
+                             </li>
+                          </ul>
+                          
+                          <li class="dropdown__subitem">
+                             <div class="dropdown__link">
+                                Modulo 2<i class="ri-add-line dropdown__add"></i>
+                             </div>
+  
+                             <ul class="dropdown__submenu">
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Sprints
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Daily Scrum
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Product Backlog
+                                   </a>
+                                </li>
+
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Sprint Backlog
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Increment
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Time-boxing
+                                   </a>
+                                </li>
+                             </ul>
+
+                       
+                             <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                   Modulo 3<i class="ri-add-line dropdown__add"></i>
+                                </div>
+     
+                                <ul class="dropdown__submenu">
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Auto-organização
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Cross-funcionalidade
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Definition of Done
+                                      </a>
+                                   </li>
+  
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Burndown
+                                      </a>
+                                   </li>
+                                </ul>
+
+                                <li class="dropdown__subitem">
+                                   <div class="dropdown__link">
+                                      <p>Modulo</p> 4<i class="ri-add-line dropdown__add"></i>
+                                   </div>
+        
+                                   <ul class="dropdown__submenu">
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Comparação
+                                         </a>
+                                      </li>
+              
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Escalabilidade
+                                         </a>
+                                      </li>
+              
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                           Vantagens
+                                         </a>
+                                      </li>
+     
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Desafios na Implementação
+                                         </a>
+                                      </li>
+                                   </ul>
+
+                                   <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                   Modulo 5<i class="ri-add-line dropdown__add"></i>
+                                </div>
+     
+                                <ul class="dropdown__submenu">
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Auto-organização
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Cross-funcionalidade
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Definition of Done
+                                      </a>
+                                   </li>
+  
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Burndown
+                                      </a>
+                                      </li>
+                                   </ul>
+                             </ul>
+                  
+                          
+                          <li><a href="index.html" class="nav__link">FAQ</a></li>
+                    
+
+                             
+        </nav>
+     </header>
 
     <main id="maincon">
         <section class="intro">
@@ -39,23 +254,26 @@
             <p>Bem-vindo ao nosso curso de Scrum Master! Neste programa, você embarcará em uma jornada que o capacitará a liderar equipes ágeis e a promover a colaboração eficaz em ambientes dinâmicos. O Scrum, uma metodologia ágil amplamente utilizada, é fundamental para a entrega rápida e contínua de valor em projetos, especialmente nas áreas de tecnologia e desenvolvimento de produtos.</p>
             
             <div class="image-section">
+
+                <img class="imgestudos" src="assets/images/Imagem estudos 1.png" alt="imagem 1">
+
                 <article>
                     <p>Durante este curso, você aprenderá os princípios e práticas do Scrum, explorando os papéis fundamentais de Scrum Master, Product Owner e equipe de desenvolvimento. Vamos discutir eventos essenciais, como Sprints, Daily Stand-ups e Revisões, além de artefatos como o Backlog e o Incremento de Produto.</p>
                 </article>
 
-                <img src="images/Imagem estudos 1.png" alt="imagem 1">
+                
             </div>
                 
             
             <div class="image-section">
-                <img src="images/Imagem estudos 2.png" alt="Imagem 2">
+                
                 <article>
                     <p>Através de atividades práticas, estudos de caso e discussões interativas, você adquirirá as habilidades necessárias para facilitar a comunicação, remover obstáculos e criar um ambiente colaborativo que fomente a inovação. Nosso objetivo é prepará-lo para ser um líder servidor, capaz de guiar sua equipe em sua jornada ágil.</p>
         
                     <p>Ao final do curso, você não apenas entenderá como implementar o Scrum de forma eficaz, mas também estará pronto para inspirar e motivar sua equipe a alcançar resultados excepcionais. Estamos animados para começar essa jornada com você e ajudá-lo a se tornar um Scrum Master de sucesso!</p>
                 </article>
 
-                
+                <img class="imgestudos" src="assets/images/Imagem estudos 2.png" alt="Imagem 2">
             </div>
 
         </section>
@@ -64,7 +282,7 @@
   
         <div class="button-container">
             <div class="home-icon">
-            <a href="home.html"><img src="images/casabranca.png" alt="Ícone Home"></a>
+            <a href="home.html"><img src="assets/images/casabranca.png" alt="Ícone Home"></a>
             </div>
             <div class="button-section">
                 <a href="modulo1.html" class="start-button">Começar</a>
@@ -74,9 +292,13 @@
 <footer> 
         
     <a href="https://github.com/Os-Python-On/API-OsPythonOn">
-     <img id="gitfooter" src="images/github.png" alt="GitHub">
+     <img id="gitfooter" src="assets/images/github.png" alt="GitHub">
   </a>
       <p id="pfooter" >© Copyright Os Python On 2024</p> 
  </footer>
+
+ <!--=============== MAIN JS ===============-->
+ <script src="assets/js/main.js"></script>
+ <script src="assets/js/faq.js"></script>
 </body>
 </html>

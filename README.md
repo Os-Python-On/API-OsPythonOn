@@ -67,7 +67,14 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 ## Tecnologias Utilizadas
 
+* Jira Software
+* Html / CSS
+* Java Script
+*  Git / Github
 * Google planilhas
+* Figma
+* Notion
+* Visual Studio Code
 * AWS
 * Flask
 

@@ -3,177 +3,369 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <title>Módulo 1</title>
+    <link rel="shortcut icon" href="assets/images/roxa.png" type="image/x-icon">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <a href="home.html">
-        <div class="logo">
-            <img src="images/logo.png" alt="Logo">
-        </div>
-    </a>
-        <nav class="barra">
-            <ul class="barra">
-                <li class="barra" ><a class="links" href="home.html">Home</a></li>
-                <li class="barra" ><a class="links" href="conceito.html">Conceito</a></li>
-                <li class="barra" ><a class="links" href="quest1.html">Questões</a></li>
-                
+    <!--=============== HEADER ===============-->
+    <header class="header">
+       <nav class="nav container">
+          <div class="nav__data">
+             <a href="index.html" class="nav__logo">
+                <img class="logo" src="assets/images/roxa.png" alt=""> Os Python On
+             </a>
              
-                <li class="barra">
-                    <a id="conteudolink" href="#">Conteúdo</a>
-                    <ul class="dropdown"> 
-                        <li><a class="links" href="modulo1.html">Módulo 1</a></li>
-                        <li><a class="links" href="modulo2.html">Módulo 2</a></li>
-                        <li><a class="links" href="modulo3.html">Módulo 3</a></li>
-                        <li><a class="links" href="modulo4.html">Módulo 4</a></li>
-                        <li><a class="links" href="modulo5.html">Módulo 5</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav class="barra">
+             <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line nav__burger"></i>
+                <i class="ri-close-line nav__close"></i>
+             </div>
+          </div>
+
+          <!--=============== NAV MENU ===============-->
+          <div class="nav__menu" id="nav-menu">
+             <ul class="nav__list">
+                <li><a href="index.html" class="nav__link">Home</a></li>
+
+            <li><a href="conceito.html" class="nav__link">Conceito</a></li>
+
+                <!--=============== DROPDOWN 1 ===============-->
+                <li class="dropdown__item">
+                   <div class="nav__link">
+                     Modulos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                   </div>
+
+                   <ul class="dropdown__menu">
+
+                      <!--=============== DROPDOWN SUBMENU ===============-->
+                      <li class="dropdown__subitem">
+                        <a href="modulo1.html">
+                           <div class="dropdown__link">
+                             <p>Modulo</p>1<i class="ri-add-line dropdown__add"></i>
+                           </div>
+                        </a>
+
+                         <ul class="dropdown__submenu">
+                            <li>
+                               <a href="#" class="dropdown__sublink">
+                                   Definição
+                               </a>
+                            </li>
+    
+                            <li>
+                               <a href="#" class="dropdown__sublink">
+                                   Origem
+                               </a>
+                            </li>
+    
+                            <li>
+                               <a href="#" class="dropdown__sublink">
+                                   Características 
+                               </a>
+                            </li>
+
+                            <li>
+                               <a href="#" class="dropdown__sublink">
+                                   Transparência 
+                               </a>
+                            </li>
+
+                            <li>
+                               <a href="#" class="dropdown__sublink">
+                                   Inspeção
+                               </a>
+                            </li>
+    
+                            <li>
+                               <a href="#" class="dropdown__sublink">
+                                   Adaptação 
+                               </a>
+                            </li>
+
+                            <li>
+                               <a href="#" class="dropdown__sublink">
+                                   Product Owner 
+                               </a>
+                            </li>
+
+                            <li>
+                               <a href="#" class="dropdown__sublink">
+                                   Scrum Master 
+                               </a>
+                            </li>
+
+                            <li>
+                               <a href="#" class="dropdown__sublink">
+                                   Dev Team 
+                               </a>
+                            </li>
+                         </ul>
+                         
+                         <li class="dropdown__subitem">
+                            <div class="dropdown__link">
+                               Modulo 2<i class="ri-add-line dropdown__add"></i>
+                            </div>
+ 
+                            <ul class="dropdown__submenu">
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                      Sprints
+                                  </a>
+                               </li>
+       
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                      Daily Scrum
+                                  </a>
+                               </li>
+       
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                      Product Backlog
+                                  </a>
+                               </li>
+
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                      Sprint Backlog
+                                  </a>
+                               </li>
+       
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     Increment
+                                  </a>
+                               </li>
+       
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                      Time-boxing
+                                  </a>
+                               </li>
+                            </ul>
+
+                      
+                            <li class="dropdown__subitem">
+                               <div class="dropdown__link">
+                                  Modulo 3<i class="ri-add-line dropdown__add"></i>
+                               </div>
+    
+                               <ul class="dropdown__submenu">
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                         Auto-organização
+                                     </a>
+                                  </li>
+          
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                         Cross-funcionalidade
+                                     </a>
+                                  </li>
+          
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                         Definition of Done
+                                     </a>
+                                  </li>
+ 
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                         Burndown
+                                     </a>
+                                  </li>
+                               </ul>
+
+                               <li class="dropdown__subitem">
+                                  <div class="dropdown__link">
+                                     <p>Modulo</p> 4<i class="ri-add-line dropdown__add"></i>
+                                  </div>
+       
+                                  <ul class="dropdown__submenu">
+                                     <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            Comparação
+                                        </a>
+                                     </li>
+             
+                                     <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            Escalabilidade
+                                        </a>
+                                     </li>
+             
+                                     <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            Vantagens
+                                        </a>
+                                     </li>
+    
+                                     <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            Desafios na Implementação
+                                        </a>
+                                     </li>
+                                  </ul>
+
+                                  <li class="dropdown__subitem">
+                               <div class="dropdown__link">
+                                  Modulo 5<i class="ri-add-line dropdown__add"></i>
+                               </div>
+    
+                               <ul class="dropdown__submenu">
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                         Auto-organização
+                                     </a>
+                                  </li>
+          
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                         Cross-funcionalidade
+                                     </a>
+                                  </li>
+          
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                         Definition of Done
+                                     </a>
+                                  </li>
+ 
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                         Burndown
+                                     </a>
+                                     </li>
+                                  </ul>
+                            </ul>
+                 
+                         
+                         <li><a href="index.html" class="nav__link">FAQ</a></li>
+       </nav>
     </header>
 
+<main>
+   <!-- Tópico 1 -->
 
-    <main>
+   <h1 class="ias">INTRODUÇÃO AO SCRUM</h1>
+   <section class="card-introducao">      
+      <div class="card-intro">
+         <div class="card__content">
+            <p class="pmod1" >O scrum é uma metodologia ágil baseada em sprints que são os ciclos de produção de um projeto, que garante constantes revisões e aperfeiçoamentos para que o resultado seja o melhor possível.</p>              
+            <p class="pmod1">O scrum surgiu na década de 80 com os estudantes japoneses Hirotaka Takeuchi e Ikujiro Nonaka, quando eles escreveram um artigo chamado “O novo jogo de negócios”, onde eles descreveram um modelo de desenvolvimento de produtos baseado em equipes auto-organizadas e multidisciplinares, com ciclos curtos de entrega de resultados.</p> 
+            <p class="pmod1">Um framework deve ter as seguintes característica-s:</p>
 
-<section class="sec1modulo1">
+            <ul>
+               <li class="pmod1">Reusável: Deve ser usável e reutilizável </li>
+               <li class="pmod1">Extensível: Deve conter funcionalidade abstrata que possa ser completada</li>
+               <li class="pmod1">Seguro: Deve ser seguro para o desenvolvedor de aplicações</li>
+               <li class="pmod1">Eficiente: Deve ser eficiente, pois é usado em muitas situações</li>
+               <li class="pmod1">Completo: Deve ser completo para endereçar o domínio do problema</li> 
+               <li class="pmod1">Bem documentado: Deve ser bem documentado e ter uma forma específica para ser implementado</li>
+            </ul>
+         </div>
+      </div>
+
+   </section>
+
+   <!-- Tópico 1 -->
+
+   <!-- Tópico 2 -->
+   <h1 class="pds">PILARES DO SCRUM</h1>
+   <section class="card-t2">      
+      <div id="pds" class="card">
+         <div class="card__content">
+            <h2>Transparência</h2>
+            <p>Ao promover o compartilhamento claro e sincero de informações entre todas as partes interessadas do projeto, a transparência é a base da confiança e da colaboração.</p>
+         </div>
+      </div>
+
+      <div class="card">
+         <div class="card__content">
+            <h2>Inspeção</h2>
+            <p>Gira em torno de avaliação e revisão consistentes. As equipes podem identificar desvios por meio de avaliações regulares, promovendo melhorias e mantendo a trajetória rumo ao sucesso do projeto.</p>
+         </div>
+      </div>
+
+      <div class="card">
+         <div class="card__content">
+            <h2>Adaptação</h2>
+            <p>Após inspecionar o produto e o processo, a equipe adapta estratégias com base nos dados obtidos, permitindo correções rápidas à medida que adquirem novas informações e compreendem melhor o projeto.</p>
+         </div>
+      </div>
+   </section>
+
+   <!-- Tópico 2 -->
+
+   <!-- Tópico 3 -->
+   <h1 class="pns">PAPEIS NO SCRUM</h1>
+   <section class="cards-conceito" >
+      <div id="pns" class="card-conceito">
+         <div class="content-mod1">
+            <div class="titulo-card">
+               <img class="img-card" src="assets/images/master.png">
+                  <h2>Scrum Master</h2>
+            </div>
+                  <p class="para">
+                  O Scrum Master garante que a equipe siga o Scrum, atuando como líder, facilitador e orientador para implementar o framework e entregar os resultados.
+                  </p>
+            </div>
+         </div>
+      </div>
+
+      <div class="card-conceito">
+         <div class="content-mod1">
+            <div class="titulo-card">
+               <img class="img-card" src="assets/images/PO.webp">
+                  <h2>Product Owner</h2>
+            </div>
+                  <p class="para">
+                        O Product Owner representa o cliente, gerencia o produto e garante que atenda aos requisitos definidos.
+                  </p>
+            </div>
+         </div>
+      </div>
+
+      <div class="card-conceito">
+         <div class="content-mod1">
+            <div class="titulo-card">
+               <img class="img-card" src="assets/images/dev team.png">
+                  <h2>Dev Team</h2>
+            </div>
+                  <p class="para">
+                  O Dev Team é a equipe de desenvolvimento responsável por desenvolver, testar e construir o produto no Scrum.
+                  </p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Tópico 3 -->
+
+
+   <div class="button-container">
+      <div class="home-icon2">
+      <a href="quest1.html"><img class="imgquest" src="assets/images/questim.png" alt="Ícone Home"></a>
+      </div>
+      <div class="button-section">
+          <a href="index.html" class="start-button">Avançar</a>
+      </div>
+  </div>
+
+</main>
+
+
+
+<footer> 
         
-        <h1 id="primeirotitmodu" >Módulo 1</h1>
-    
-    <div class="divconteudo">
-        <h2 class="titmodu2"> Scrum</h2>
+   <a href="https://github.com/Os-Python-On/API-OsPythonOn">
+       <img id="gitfooter" src="assets/images/github.png" alt="GitHub">
+   </a>
+       <p id="pfooter" >© Copyright Os Python On 2024</p> 
+</footer>
 
-        <p class="pmodu">A metodologia Scrum é um modelo ágil de gerenciamento
-            voltado para desenvolvimento de software, mas que
-            também pode ser aplicada em outras áreas. Ele se baseia
-            em fornecer entregas contínuas e incrementais dos
-            produtos, além de se adaptar as mudanças e incentivar o
-            trabalho em equipe.
-            Dentro desta metodologia a formação da equipe é baseada
-            em três papéis fundamentais: </p>
-
-            <p class="pmodu2">• Product Owner (P.O): É o indivíduo responsável por
-                representar os interesses do cliente, elaborar o
-                backlog do produto e garantir que a equipe foque nos
-                itens de maior valor. <br>
-                • Scrum Master: É o indivíduo responsável por
-                gerenciar o Scrum Team, garantir que a equipe esteja
-                em conformidade com a metodologia Scrum, além de
-                eliminar os possíveis impedimentos que surjam. <br>
-                • Scrum Team: É a equipe composta pelos membros
-                que realizarão o desenvolvimento do software.
-            </p>
-    
-            <p class="pmodu">Durante a realização do Scrum, alguns eventos são de
-                suma importância para garantir o andamento do projeto.
-                São eles:</p>
-
-            <p class="pmodu2">• Sprint: É a entrega contínua e adaptada do Mínimo
-                    Produto Viável (MVP). <br>
-                    • Daily Scrum: Refere-se a reunião diária e rápida do
-                    grupo para alinhar as atividades, identificar
-                    impedimentos e ajustar o plano de trabalho. <br>
-                    • Sprint Review: Refere-se à inspeção da Sprint e
-                    determinar futuras adaptações.</p>
-
-            <p class="pmodu">Desenvolver projetos baseado no método Scrum, pode
-                trazer inúmeros benefícios para os desenvolvedores. São
-                eles:</p>
-
-            <p class="pmodu2">• Flexibilidade e Adaptabilidade: O Scrum permite
-                ajustar e adaptar requisitos de forma ágil,
-                respondendo rapidamente ao ambiente de negócios e
-                as necessidades dos stakeholders. <br>
-                • Colaboração e Comunicação: As Daily Scrum e
-                feedback contínuo, permite a comunicação entre a
-                equipe. <br>
-                • Responsabilidade e Transparência: As equipes no
-                Scrum são autogerenciáveis, permitindo que as
-                responsabilidades sejam delegadas para os
-                integrantes da equipe, enquanto a transparência no
-                progresso de desenvolvimento aumenta a confiança
-                entre todos os envolvidos.</p>
-    
-    </div>
-
-</section>
-
-
-<section class="sec1modulo1">
-
-    <h1 class="titmodu" >Artefatos Essenciais - SCRUM</h1>
-    
-    <div class="divconteudo">
-
-        <p class="pmodu">Nenhum cliente deseja um produto genérico, sempre precisam 
-            de um diferencial no que estão vendendo, por isso, aspectos únicos são necessários, 
-            com os artefatos SCRUM isso é facilitado. </p>
-            
-        <h2 class="titmodu2"> Definição</h2>
-
-            <p class="pmodu">Artefatos SCRUM servem para detalhar o produto, uma visão clara 
-            sobre cada detalhe de sua entrega é primordial para um bom desenvolvimento, ter isso 
-            documentado ajudará na organização da equipe.
-            </p>
-    
-
-        </div>
-        
-        
-        
-        <h3 class="titmodu" >Artefatos Essenciais</h3>
-
-
-
-        <div class="divconteudo">
-
-        <h4 class="titmodu2"> Sprint</h4>
-            <p class="pmodu">Sprints são entregas fracionadas. Em um projeto existem diversas 
-                Sprints com objetivos diferentes, melhorando cada vez mais até chegar na Sprint 
-                final. Uma Sprint serve para o comprador ter noção do andamento de seu produto, verificando se tudo está indo conforme o planejado.</p>
-
-
-        <h5 class="titmodu2"> Backlog do produto</h5>
-            <p class="pmodu">O Backlog é uma lista ordenada, indo da tarefa mais importante para a menos importante (quem define o nível de importância é o PO junto com o Dev Team).
-                Backlog da Sprint são os requisitos que o cliente colocou, mas com ordem de prioridades, conforme o projeto for avançando, será necessário preenchê-lo com as novas ideias dele.
-                Na primeira entrevista com o cliente é necessário apresentar o Backlog do produto para ele, com o intuito de confirmar que ambos estão com a mesma compreensão.
-            </p>
-    
-            <h6 class="titmodu2"> Backlog da Sprint</h6>
-            <p class="pmodu">Lista ordenada com cada demanda distribuída nas Sprints, é uma 
-                estimativa do que a equipe é capaz de entregar em cada Sprint.
-                Na primeira Sprint deve-se priorizar entregar algo funcional, mesmo que 
-                não esteja bonito, o cliente conseguirá fazer algo com aquele protótipo.
-            </p>
-
-            <h7 class="titmodu2"> Definition of Done (DoD) e Definition of Ready (DoR)</h7>
-            <p class="pmodu">Definition of Done é o valor mínimo que uma entrega precisa ter para ser considerada feita, por exemplo, se alguém mandar um arquivo sem título, sendo que no DoD específica que precisa de um, então essa tarefa ainda não foi finalizada.
-            Definition of Ready serve para checar se o time possui tudo que é preciso para começar a trabalhar em certos pontos, como ter um conhecimento x para realizar a atividade y.
-            </p>
-
-            <h8 class="titmodu2">Exemplos:</h8>
-            <p class="pmodu">Receitas são tutoriais para criar algo, cada receita é diferente da outra, mesmo tentando atingir o mesmo objetivo, como um bolo de laranja, por exemplo (um pode colocar mais farinha, outro mais ovos, etc). Então cada receita é um produto diferente e cada ingrediente é um ARTEFATO SCRUM. <br>
-
-                Imagine várias confeitarias diferentes, se cada uma vender o mesmo bolo de laranja, ela não irá se destacar das outras, aquela que possuir os melhores ingredientes ou os mais criativos (que combinam melhor para formar um sabor mais agradável) conseguirá vender mais. <br>
-            
-            LEMBRE-SE: O gosto de cada um é exclusivo, então tente fazer o bolo de laranja que mais agrade o seu cliente (Escolha os ingredientes que ele gosta/precise).
-            
-            </p>
-    
-</div>
-
-</section>
-    </main>
-<p>teste</p>
-    <footer> 
-        
-        <a href="https://github.com/Os-Python-On/API-OsPythonOn">
-            <img id="gitfooter" src="images/github.png" alt="GitHub">
-        </a>
-            <p id="pfooter" >© Copyright Os Python On 2024</p> 
-    </footer>
-
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
 </body>
 </html>

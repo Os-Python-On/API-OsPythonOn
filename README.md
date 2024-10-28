@@ -76,6 +76,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 * Notion
 * AWS
 * JavaScript
+* Flask
 
 # Backlog do produto
 

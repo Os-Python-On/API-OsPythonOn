@@ -75,6 +75,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 * HTML / CSS
 * Notion
 * AWS
+* JavaScript
 
 # Backlog do produto
 

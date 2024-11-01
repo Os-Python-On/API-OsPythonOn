@@ -77,22 +77,11 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 * Visual Studio Code
 * AWS
 * Flask
-
-* <p align="left">
-    <ul>
-      <li>  
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="50px" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50px" />
-      </li>
-      <li>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="50px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width="50px" /> 
-      </li>
-      <li>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="50px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="50px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="50px">
-      </li>
-   </ul>
-</p>
-![image](https://github.com/user-attachments/assets/ec80f1f2-4c96-430e-9f34-9d04abde1bc1)
-
+* <ul>   
+    <li>
+        <img src="![image](https://github.com/user-attachments/assets/ec80f1f2-4c96-430e-9f34-9d04abde1bc1")
+    </li>
+</ul>
 # Backlog do produto
 
 | Prioridade | User Stories | Estimativa | Sprint |

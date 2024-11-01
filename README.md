@@ -75,10 +75,9 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 * Figma
 * Notion
 * Visual Studio Code
-* AWS
-* <picture>
-    <srcset="https://github.com/user-attachments/assets/cfb18692-bdc3-48b7-a2e9-70ee31997860">
-    </picture>
+* ![image](https://github.com/user-attachments/assets/e1921c6e-2791-4c86-8119-f17b496a415d)
+
+* 
 
 
 # Backlog do produto

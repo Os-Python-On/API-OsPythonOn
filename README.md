@@ -75,8 +75,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 * Figma
 * Notion
 * Visual Studio Code
-* ![image](https://github.com/user-attachments/assets/18de7e6b-834b-4f96-950b-60d46391e320)
-* <img src="https://github.com/user-attachments/assets/93ca6e1b-9817-4303-8757-390b51d2e7ed" width="600">
+* <img src="https://github.com/user-attachments/assets/93ca6e1b-9817-4303-8757-390b51d2e7ed" width="150">
 
 
 

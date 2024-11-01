@@ -76,12 +76,8 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 * Notion
 * Visual Studio Code
 * AWS
-* Flask
-* <ul>   
-    <li>
-        <img src="![image](https://github.com/user-attachments/assets/ec80f1f2-4c96-430e-9f34-9d04abde1bc1")
-    </li>
-</ul>
+* ![image](https://github.com/user-attachments/assets/ec80f1f2-4c96-430e-9f34-9d04abde1bc1)
+
 # Backlog do produto
 
 | Prioridade | User Stories | Estimativa | Sprint |

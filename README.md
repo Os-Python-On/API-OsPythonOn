@@ -70,7 +70,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 * * Jira Software * Html / CSS *  Java Script
  * Git / Github * Google planilhas * Figma
  * Notion  Visual Studio Code 
- * <img src="https://github.com/user-attachments/assets/93ca6e1b-9817-4303-8757-390b51d2e7ed" width="100"> <img src="https://github.com/user-attachments/assets/fd49f6da-ff1e-413b-a1f4-1ff3d9035170" width="50" height="50">
+ * <img src="https://github.com/user-attachments/assets/93ca6e1b-9817-4303-8757-390b51d2e7ed" width="100">  <img src="https://github.com/user-attachments/assets/fd49f6da-ff1e-413b-a1f4-1ff3d9035170" width="50" height="50">
 
 
 

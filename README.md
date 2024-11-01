@@ -76,7 +76,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 * Notion
 * Visual Studio Code
 * AWS
-* ![image](https://github.com/user-attachments/assets/ec80f1f2-4c96-430e-9f34-9d04abde1bc1)
+* ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
 # Backlog do produto
 

@@ -39,7 +39,7 @@ Deve também conter um formulário para avaliações parciais e finais (com fina
 Tendo como prioridade secundária, o desenvolvimento de Skills importantes para um profissional de TI. Todo material deve ser disponibilizado para o público interno e externo da FATEC.
 
 Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias Ágeis como o SCRUM, visando:
-## Habilidades em Construção
+# Habilidades em Construção
 * Documentação de Software (Briefing, Wireframes)
 * Controle de versão (Github)
 * Processo de Desenvolvimento Ágil (SCRUM)
@@ -51,10 +51,10 @@ Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias
 * Facilitar o compartilhamento e feedback
 * Desenvolver habilidades técnicas
 
-## MVP
+# MVP
 ![image](https://github.com/user-attachments/assets/2a553a4e-2882-45ac-be27-20582d8786ac)
 
-## Visão do Produto
+# Visão do Produto
 Tornar-se uma grande ajuda para aqueles que visam conhecer sobre a metodologia, um site onde é possível obter diversas informações relacionadas a qualquer instante. 
 Fornecer informações completas sobre todos os tópicos abordados, fazendo com que o leitor possua uma boa base de conhecimento para qualquer atividade relacionada ao Scrum.
 
@@ -65,7 +65,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 [![Vídeo Demonstrativo](https://cdn-icons-png.flaticon.com/512/2468/2468825.png)](https://youtu.be/2_Dmvu4s8dQ)
 
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 * * Jira Software * Html / CSS *  Java Script
  * Git / Github * Google planilhas * Figma

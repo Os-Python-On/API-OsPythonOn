@@ -74,7 +74,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="50px" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50px" /> <img src="https://github.com/user-attachments/assets/fd49f6da-ff1e-413b-a1f4-1ff3d9035170" width="50" height="50">
       </li>
       <li>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width="50px" /> <img src="![image](https://github.com/user-attachments/assets/e250d8de-f955-43cd-8c13-9a32caac1841)
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width="50px" /> <img src="https://github.com/user-attachments/assets/e250d8de-f955-43cd-8c13-9a32caac1841
 " width="600">
       </li>
       <li>

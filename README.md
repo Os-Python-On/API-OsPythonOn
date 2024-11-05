@@ -104,12 +104,12 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 - [x] Criar backlog da Sprint
 - [x] Prototipo no Figma
 - [x] Criar Planilha de horarios de reuniões
-- [X] Juntar Conteúdo Sobre Metodologia Agil
-- [X] Juntar Conteúdo Sobre Scrum
-- [x] Juntar Conteúdo Sobre Artefatos Scrum
-- [x] Juntar Conteúdo Sobre Scrum Master
-- [x] Juntar Conteúdo Sobre PO
-- [x] Juntar Conteúdo Sobre Dev Team
+- [X] Adcionar Conteúdo Sobre Metodologia Agil
+- [X] Adcionar Conteúdo Sobre Scrum
+- [x] Adcionar Conteúdo Sobre Artefatos Scrum
+- [x] Adcionar Conteúdo Sobre Scrum Master
+- [x] Adcionar Conteúdo Sobre PO
+- [x] Adcionar Conteúdo Sobre Dev Team
 - [x] Criar Prototipo da pagina Home
 - [x] Revisar os Conteúdos
 - [x] Desenvolver o Site

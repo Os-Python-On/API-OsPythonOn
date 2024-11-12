@@ -1431,19 +1431,20 @@ text-align: flex-start;}
 
 .Cont-Spotify{
   display: flex;
-}
+  align-items: center;}
 
 .Cont-Spotify > img{
   width: 13%;
   margin-left: 3%;}
 
 .Spotify-text{
-  
-}
+  height: 100%;
+  align-items: center;}
 
 .Spotify-text > h2{
   color: white;
-  text-align: right;}
+  text-align: right;
+  margin-bottom: 10px;}
 
 .Spotify-text > p{
   color: white;

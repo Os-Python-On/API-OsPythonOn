@@ -1395,72 +1395,166 @@ footer{
 /*CSS do Módulo 5*/
 
 .MainModulo5{
-  margin-left: 10%;
-  margin-right: 10%;}
-
-.h1-modulo5{
-  color: white;
-  text-align: center; 
-  margin-bottom: 50px;
-  margin-top: 90px;}
+  margin-left: 15%;
+  margin-right: 15%;}
 
 .Cont-CaseStudies{
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;}
+  align-items: center;
+  margin-bottom: 100px;}
+
+  .Cont-CaseStudies > h1{
+  text-align: center; 
+  margin-bottom: 50px;
+  margin-top: 90px;
+  font-size: 40px;}
 
 .Cont-CaseStudies > p{
-  color: white;
-  margin-bottom: 15px;}
+  margin-bottom: 15px;
+  font-size: 17px;}
   
-.Cont-Amazon > img{
-  border-radius: 50%;
-  height: 205px;
-  width: 205px;
-}
+.Cont-Amazon{
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;}
 
-.Cont-Amazon > h2{
-color: white;
-display: flex;
-justify-content: flex-start;}
+.Amazon-text{
+  display: flex;
+  margin-bottom: 40px;}
+
+.Amazon-text-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;}
+
+.Amazon-text-1 > h2{
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 30px;}
+
+.Amazon-text-1 > p{
+  text-align: left;
+  font-size: 17px;}
+
+.Amazon-text > img{
+  width: 13%;
+  background-color: white;
+  border-radius: 100%;
+  padding: 3px;
+  margin-left: 3%;}
 
 .Cont-Amazon > p{
-color: white;
-display: flex;
-text-align: flex-start;}
+  font-size: 17px;
+  margin-left: 15%;
+  margin-right: 15%;}
 
 .Cont-Spotify{
   display: flex;
-  align-items: center;}
+  align-items: center;
+  margin-bottom: 100px;}
 
 .Cont-Spotify > img{
   width: 13%;
-  margin-left: 3%;}
+  margin-right: 3%;}
 
 .Spotify-text{
   height: 100%;
-  align-items: center;}
+  align-items: center;
+  color: white;}
 
 .Spotify-text > h2{
-  color: white;
   text-align: right;
-  margin-bottom: 10px;}
+  margin-bottom: 10px;
+  font-size: 30px;}
 
 .Spotify-text > p{
+  text-align: right;
+  font-size: 17px;}
+
+.Cont-Lego{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   color: white;
-  text-align: right;}
+  text-align: center;
+  margin-bottom: 100px;}
 
-.Cont-Lego > img{
-  border-radius: 50%;
-  height: 205px;
-  width: 205px;}
+.Lego-text{
+  display: flex;
+  margin-bottom: 40px;}
 
-.Cont-Lego > h2{
+.Lego-text-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;}
+
+.Lego-text-1 > h2{
+  margin-bottom: 10px;
+  font-size: 30px;}
+
+.Lego-text > img{
+  width: 13%;}
+
+.Cont-GestScrum{
+  display: flex;
+  flex-direction: column;}
+
+.Cont-GestScrum > h1{
+  color: white;
+  text-align: center;
+  font-size: 40px;}
+
+.GestScrum-cards{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;}
+
+.GestScrum-cards-1{
+  background-color: white;
+  width: 25%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  padding: 15px;}
+
+.GestScrum-cards-1 > img{
+  width: 75%;
+  margin-bottom: 10px;}
+
+.GestScrum-cards-1 > h1{
+  font-weight: bolder;
+  font-size: 35px;}
+
+.Cont-ScrumDigital{
   color: white;
   display: flex;
-  justify-content: flex-start;}
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;}
+  
+.Cont-ScrumDigital > h1{
+  text-align: center; 
+  margin-bottom: 50px;
+  margin-top: 90px;
+  font-weight: 1000;
+  font-size: 40px;}
 
-.Cont-Lego > p{
-  color: white;
+.Cont-ScrumDigital > p{
+  margin-bottom: 15px;
+  font-size: 17px;}
+
+.Mod5-quest{
   display: flex;
-  text-align: right;}
+  align-items: center;
+  justify-content: center;}
+
+.Mod5-quest > .Mod5-quest{
+  background-color: white;
+  padding: 20px;
+  border-radius: 100px;
+  color: currentColor;}

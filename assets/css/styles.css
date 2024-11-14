@@ -1668,3 +1668,108 @@ footer{
   font-weight: 500;
   font-style: normal;
  }
+
+ /*CSS DO MODULO 3*/
+
+ .h1-modulo3{
+    margin: 60px;
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+  .h2-modulo3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 11em;
+    margin-right: 11em;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+}
+  .p-modulo3{
+  
+    margin-left: 14em;
+    margin-right: 14em;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+}
+canvas#burndownChart {
+    display: block;
+    margin: 3rem auto; 
+    margin-top: 4rem; 
+    max-width: 90%; 
+}
+
+.cards-modulo3__container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap; 
+}
+
+.cards-modulo3__card {
+    width: 250px; 
+    height: 350px; 
+    border-radius: 20px;
+    padding: 20px; 
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(#15172d, #15065b);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cards-modulo3__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cards-modulo3__title {
+    font-size: 1.4rem; 
+    font-weight: bold;
+    color: #fff; 
+    margin-bottom: 15px; 
+    font-family: "Poppins", sans-serif;
+}
+
+.cards-modulo3__content {
+    color: #fff; 
+    font-size: 1rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .cards-modulo3__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-modulo3__card {
+        width: 100%;
+        max-width: 350px;
+        height: auto; 
+    }
+
+    .cards-modulo3__title {
+        font-size: 1.2rem; 
+    }
+
+    .cards-modulo3__content {
+        font-size: 1rem; 
+    }
+}

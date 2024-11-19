@@ -1539,6 +1539,7 @@ canvas#burndownChart {
     margin: 3rem auto; 
     margin-top: 4rem; 
     max-width: 90%; 
+    background-color: whitesmoke;
 }
 
 .cards-modulo3__container {

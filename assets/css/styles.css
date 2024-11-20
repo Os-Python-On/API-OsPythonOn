@@ -1587,6 +1587,29 @@ canvas#burndownChart {
     font-family: "Montserrat", sans-serif;
 }
 
+.Mod3-quest{
+  margin-right: 4rem;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+
+.Mod3-quest > .Mod3-quest-quest{
+  margin-right: 30px;
+  background-color: #ececec;
+  color: #18174d;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold; 
+  font-size: 18px;
+  border-radius: 20px;}
+
+.Mod3-quest-quest:hover{
+  border-radius: 20px;
+  background-color: #d0d0d0;
+}
+
+
 @media (max-width: 768px) {
     .cards-modulo3__container {
         flex-direction: column;

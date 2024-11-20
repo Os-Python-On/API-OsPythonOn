@@ -137,6 +137,37 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 - [ ] Conteúdo finalizado
 - [ ] Correção de Bugs
 - [ ] Pequenas melhorias no design do site
+
+## ❓ Como usar o site no seu computador - Windows
+
+![infografico-comobaixar](https://github.com/m-germano/projetoAPI-horus/assets/107308515/4caf90c2-ca9e-4bda-9b21-9888f6f020cc)
+
+• No caminho localizado, digite os seguintes comandos:
+
+```
+1- python -m venv venv
+
+2- .\venv\Scripts\activate
+
+3- pip install -r requirements.txt
+
+4- flask run
+
+```
+
+• Copie o link do site e cole-o em seu navegador (caso tudo tenha ocorrido corretamente, o caminho provavelmente será: http://127.0.0.1:5000).
+<br>
+
+### Resolucão de dois possíveis erros
+• Existem dois possíveis erros que podem ocorrer durante essas etapas. O primeiro é a falta de permissão de execução em seu computador. Para corrigir isso, abra o PowerShell do seu computador como administrador e digite os seguintes comandos:
+
+```
+1- Set-ExecutionPolicy -ExecutionPolicy AllSigned
+
+2- Pressione 'S' e 'Enter' para confirmar.
+```
+<br>
+<br>
   
 # Competências desenvolvidas
 

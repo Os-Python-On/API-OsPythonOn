@@ -1773,13 +1773,13 @@ canvas#burndownChart {
   width: 13%;}
 
 /*Cards Jira, Trello e Azure*/
-
 .Cont-GestScrum{
   display: flex;
   flex-direction: row;
   width: 100%;
   align-items: center;  
-  justify-content: space-evenly;}
+  justify-content: space-evenly;
+  gap: 20px;}
 
 .Cont-GestScrum-card {
   display: flex;
@@ -1840,6 +1840,12 @@ canvas#burndownChart {
   border-radius: 20px;
 }
 
+@media (max-width: 900px){
+  .Cont-GestScrum{
+      flex-direction: column;
+      align-items: center;
+  }
+}
 /*Cards Jira, Trello e Azure*/
 
 .Cont-ScrumDigital{

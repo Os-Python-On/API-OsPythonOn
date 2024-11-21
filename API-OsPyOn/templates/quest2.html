@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/static/images/roxa.png" type="image/x-icon">
+    <title>Os Python On</title>
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!-- ===================CSS=================== -->
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="#" class="nav__logo">
+                 <img class="logo" src="assets/images/roxa.png" alt=""> Os Python On
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="{{ url_for('index') }}" class="nav__link">Home</a></li>
+
+             <li><a href="{{ url_for('conceito') }}" class="nav__link">Conceito</a></li>
+
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                      Módulos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+
+                       <!--=============== DROPDOWN SUBMENU ===============-->
+                       <li class="dropdown__subitem">
+                          <a href="{{ url_for('modulo1') }}">
+                          <div class="dropdown__link">
+                            <p>Módulo</p>1<i class="ri-add-line dropdown__add"></i>
+                          </div>
+                       </a>
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Definição
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Origem
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Características 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   Transparência 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Inspeção
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Adaptação 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   Product Owner 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Scrum Master 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Dev Team 
+                                </a>
+                             </li>
+                          </ul>
+                          
+                          <li class="dropdown__subitem">
+                             <a href="{{ url_for('modulo2') }}">
+                             <div class="dropdown__link">
+                                Módulo 2<i class="ri-add-line dropdown__add"></i>
+                             </div>
+                          </a>
+     
+                             <ul class="dropdown__submenu">
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Sprints
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Daily Scrum
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Product Backlog
+                                   </a>
+                                </li>
+     
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Sprint Backlog
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Increment
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Time-boxing
+                                   </a>
+                                </li>
+                             </ul>
+     
+                       
+                             <li class="dropdown__subitem">
+                                <a href="{{ url_for('modulo3') }}">
+                                <div class="dropdown__link">
+                                   Módulo 3<i class="ri-add-line dropdown__add"></i>
+                                </div>
+                             </a>
+     
+                                <ul class="dropdown__submenu">
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Auto-organização
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Cross-funcionalidade
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Definition of Done
+                                      </a>
+                                   </li>
+     
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Burndown
+                                      </a>
+                                   </li>
+                                </ul>
+     
+                                <li class="dropdown__subitem">
+                                   <a href="{{ url_for('modulo4') }}">
+                                   <div class="dropdown__link">
+                                      <p>Módulo</p> 4<i class="ri-add-line dropdown__add"></i>
+                                   </div>
+                                </a>
+        
+                                   <ul class="dropdown__submenu">
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Comparação
+                                         </a>
+                                      </li>
+              
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Escalabilidade
+                                         </a>
+                                      </li>
+              
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                           Vantagens
+                                         </a>
+                                      </li>
+     
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Desafios na Implementação
+                                         </a>
+                                      </li>
+                                   </ul>
+     
+                                   <li class="dropdown__subitem">
+                                      <a href="{{ url_for('modulo5') }}">
+                                <div class="dropdown__link">
+                                   Módulo 5<i class="ri-add-line dropdown__add"></i>
+                                </div>
+                             </a>
+     
+                                <ul class="dropdown__submenu">
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Auto-organização
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Cross-funcionalidade
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Definition of Done
+                                      </a>
+                                   </li>
+     
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Burndown
+                                      </a>
+                                      </li>
+                                   </ul>
+                             </ul>
+                  
+                          
+                          <li><a href="{{ url_for('index') }}" class="nav__link">FAQ</a></li>
+                       </nav>
+  </header>
+
+  <div class="app">
+   <h1>TESTE DO MÓDULO 2</h1>
+   <div class="quiz"></div>
+   <h2 id="question">QUESTION GOES HERE</h2>
+   <div id="answer-buttons">
+     <button class="btn">Answer 1</button>
+     <button class="btn">Answer 2</button>
+     <button class="btn">Answer 3</button>
+     <button class="btn">Answer 4</button>
+   </div>
+   <button id="next-btn">Next</button>
+ </div>
+ </div>
+ 
+ 
+<div class="button-container">
+   <div class="home-icon">
+   <a href="{{ url_for('index') }}"><img src="/static/images/casabranca.png" alt="Ícone Home"></a>
+   </div>
+   <div class="button-section">
+       <a href="{{ url_for('modulo3') }}" class="start-button">Avançar</a>
+   </div>
+</div>
+
+ <footer> 
+   
+   <a href="https://github.com/Os-Python-On/API-OsPythonOn">
+       <img id="gitfooter" src="/static/images/github.png" alt="GitHub">
+   </a>
+       <p id="pfooter" >© Copyright Os Python On 2024</p> 
+</footer>
+
+<!--=============== MAIN JS ===============-->
+   <script src="/static/js/quest2.js"></script>
+
+</body>
+</html>

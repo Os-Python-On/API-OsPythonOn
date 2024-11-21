@@ -140,8 +140,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 ## ❓ Como usar o site no seu computador - Windows
 
-![infografico-comobaixar](https://private-user-images.githubusercontent.com/178118093/388301589-61a5f4b6-b4e0-40ec-8c28-66fdb057a9ae.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzIxNDY5NTgsIm5iZiI6MTczMjE0NjY1OCwicGF0aCI6Ii8xNzgxMTgwOTMvMzg4MzAxNTg5LTYxYTVmNGI2LWI0ZTAtNDBlYy04YzI4LTY2ZmRiMDU3YTlhZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTEyMFQyMzUwNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NWY4ODIwMDY0MWQ0YzhmYTc4ZGMyYzZhMTUwYWI0YWEwMTc1YTQ1OWNiNDA5ZjMzM2RkY2ZlMDdjZjJhNTNlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.m0BRgDvL7ZtD_PXh_M-WJX1QqeD15iNKXQG2gBEL0Do)
-
+![infografico de como baixar](https://github.com/user-attachments/assets/76cd4210-d54e-49cf-9fc6-7e12eb60d620)
 • No caminho localizado, digite os seguintes comandos:
 
 ```

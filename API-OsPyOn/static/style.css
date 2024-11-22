@@ -1637,6 +1637,26 @@ footer{
   }
 }
 
+.wrapper > p,
+.wrapper > h4 {
+  margin: 1.5rem 0;
+}
+
+.wrapper > h4 {
+  letter-spacing: 3px;
+}
+
+#h4duvidas{
+  color: white;
+  margin-top: 3em;
+  font-size: 2em;
+}
+@media screen and (max-width: 730px) {
+  
+  #h4duvidas{
+    text-align: center;
+  }}
+
  /*CSS DO MODULO 3*/
 
  .h1-modulo3{
@@ -1765,33 +1785,6 @@ canvas#burndownChart {
         font-size: 1rem; 
     }
 }
-
-
-
-
-
-.wrapper > p,
-.wrapper > h4 {
-  margin: 1.5rem 0;
-}
-
-.wrapper > h4 {
-  letter-spacing: 3px;
-}
-
-#h4duvidas{
-  color: white;
-  margin-top: 3em;
-  font-size: 2em;
-}
-@media screen and (max-width: 730px) {
-  
-  #h4duvidas{
-    text-align: center;
-  }
-
-  }
-
 
 /*CSS do Módulo 5*/
 

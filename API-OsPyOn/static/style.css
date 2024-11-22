@@ -1501,6 +1501,141 @@ footer{
   font-weight: 500;
   font-style: normal;
  }
+ #container2{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  width: 100%;
+  max-width: 1000px;  /* Limite de largura para telas maiores */
+  margin: 0 auto;  /* Centraliza o container na tela */
+}
+
+.accordion2{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+}
+.accordion-header2{
+  width:100%;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  cursor:pointer;
+}
+.accordion-header2 span{
+  max-width: 100%;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.accordion-body2{
+  color: #444;
+  font-size: 14px;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity .3s;
+  font-weight: bold;
+}
+.accordion-body2.active{
+  height: 100%;
+  opacity: 1;
+  padding:  5px 0px;
+
+}
+
+.arrow{
+  transition: transform .2s linear
+}
+
+.accordion2:has(.active) .arrow{
+  transform: rotate(180deg);
+}
+
+ /*Responsividade do Módulo 2*/
+ @media screen and (max-width: 730px) {
+  .h1-modulo2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+
+  .h2-modulo2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .p-modulo2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .card-modulo2 {
+    width: 90%;
+    height: auto;
+    margin: 0 0 30px;
+  }
+
+  .card-button-modulo2 {
+    width: 80%;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .p-card-modulo2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 20px;
+  }
+
+  .Artefatos-do-Scrum {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .h1-modulo2 {
+    font-size: 24px;
+  }
+
+  .h2-modulo2 {
+    font-size: 16px;
+  }
+
+  .p-modulo2 {
+    font-size: 16px;
+  }
+
+  .card-modulo2 {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .card-button-modulo2 {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+
+  .p-card-modulo2 {
+    font-size: 18px;
+  }
+}
 
  /*CSS DO MODULO 3*/
 
@@ -1633,61 +1768,7 @@ canvas#burndownChart {
 
 
 
-  #container2{
-    display: flex;
-    flex-direction: column;
-    gap:8px;
-    width: 1000px;
-}
 
-.accordion2{
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 12px;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
-}
-.accordion-header2{
-    width:100%;
-    border: none;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 16px;
-    cursor:pointer;
-}
-.accordion-header2 span{
-    max-width: 100%;
-    white-space:nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-.accordion-body2{
-    color: #444;
-    font-size: 14px;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
-    transition: opacity .3s;
-    font-weight: bold;
-}
-.accordion-body2.active{
-    height: 100%;
-    opacity: 1;
-    padding:  5px 0px;
-
-}
-
-.arrow{
-    transition: transform .2s linear
-}
-
-.accordion2:has(.active) .arrow{
-    transform: rotate(180deg);
-}
 
 .wrapper > p,
 .wrapper > h4 {

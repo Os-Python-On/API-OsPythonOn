@@ -1633,61 +1633,84 @@ canvas#burndownChart {
 
 
 
-#container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 500px;
+  #container2{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 1000px;
 }
 
-.accordion-modulo2 {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 12px;
-  cursor: pointer;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+.accordion2{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+}
+.accordion-header2{
+    width:100%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    cursor:pointer;
+}
+.accordion-header2 span{
+    max-width: 100%;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.accordion-body2{
+    color: #444;
+    font-size: 14px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity .3s;
+    font-weight: bold;
+}
+.accordion-body2.active{
+    height: 100%;
+    opacity: 1;
+    padding:  5px 0px;
+
 }
 
-.accordion-header-modulo2 {
-  width: 100%;
-  border: none;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 16px;
-  cursor: pointer;
+.arrow{
+    transition: transform .2s linear
 }
 
-.accordion-header-modulo2 span {
-  max-width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.accordion2:has(.active) .arrow{
+    transform: rotate(180deg);
 }
 
-.accordion-body-modulo2 {
-  color: #444;
-  font-size: 14px;
-  opacity: 0;
-  height: 0;
-  overflow: hidden;
-  transition: opacity .3s;
+.wrapper > p,
+.wrapper > h4 {
+  margin: 1.5rem 0;
 }
 
-.accordion-body-modulo2.active {
-  height: 100%;
-  opacity: 1;
-  padding: 5px 0px;
+.wrapper > h4 {
+  letter-spacing: 3px;
 }
 
-.arrow {
-  transition: transform .2s linear;
+#h4duvidas{
+  color: white;
+  margin-top: 3em;
+  font-size: 2em;
 }
+@media screen and (max-width: 730px) {
+  
+  #h4duvidas{
+    text-align: center;
+  }
 
-.accordion-modulo2:has(.active) .arrow {
-  transform: rotate(180deg);
-}
+  }
+
 
 /*CSS do Módulo 5*/
 

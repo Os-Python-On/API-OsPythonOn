@@ -539,10 +539,11 @@ button:active {
   font-size: 15px;
   margin-top: 1.5em;
 }
-
+/*retirado do codigo por peira: não muda nada e tava atrapalhando meu codigo
 button:hover {
   background: #7419f7;
 }
+*/
 
 button > svg {
   width: 28px;

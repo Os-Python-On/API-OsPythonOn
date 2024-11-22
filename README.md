@@ -133,8 +133,11 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 - [x] Criar novas páginas para os conteúdos
       
 ## Sprint 3 . Implementação
+- [x] Site funcionando na AWS
+- [ ] Responsividade de todos os módulos
 - [ ] Site completamente funcional
-- [ ] Conteúdo finalizado
+- [x] Conteúdo finalizado
+- [x] Todo o questionário no site
 - [ ] Correção de Bugs
 - [ ] Pequenas melhorias no design do site
 

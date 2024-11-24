@@ -20,7 +20,7 @@
       <nav class="nav container">
          <div class="nav__data">
             <a href="{{ url_for('index') }}" class="nav__logo">
-               <img class="logo" src="../static/images/roxa.png" alt=""> Os Python On
+               <img class="logo" src="/static/images/roxa.png" alt=""> Os Python On
             </a>
               
               <div class="nav__toggle" id="nav-toggle">
@@ -48,14 +48,14 @@
                        <li class="dropdown__subitem">
                           <a href="{{ url_for('modulo1') }}">
                           <div class="dropdown__link">
-                            <p>Módulo</p>1<i class="ri-add-line dropdown__add"></i>
+                            <p>Módulo</p>1
                           </div>
                         </a>
                           
                           <li class="dropdown__subitem">
                              <a href="{{ url_for('modulo2') }}">
                              <div class="dropdown__link">
-                                Módulo 2<i class="ri-add-line dropdown__add"></i>
+                                Módulo 2
                              </div>
                           </a>
      
@@ -63,7 +63,7 @@
                              <li class="dropdown__subitem">
                                 <a href="{{ url_for('modulo3') }}">
                                 <div class="dropdown__link">
-                                   Módulo 3<i class="ri-add-line dropdown__add"></i>
+                                   Módulo 3
                                 </div>
                              </a>
      
@@ -71,7 +71,7 @@
                                 <li class="dropdown__subitem">
                                    <a href="{{ url_for('modulo4') }}">
                                    <div class="dropdown__link">
-                                      <p>Módulo</p> 4<i class="ri-add-line dropdown__add"></i>
+                                      <p>Módulo</p> 4
                                    </div>
                                 </a>
          
@@ -79,7 +79,7 @@
                                    <li class="dropdown__subitem">
                                       <a href="{{ url_for('modulo5') }}">
                                 <div class="dropdown__link">
-                                   Módulo 5<i class="ri-add-line dropdown__add"></i>
+                                   Módulo 5
                                 </div>
                              </a>
      
@@ -149,7 +149,7 @@
        <div id="pns" class="card-conceito">
           <div class="content-mod1">
              <div class="titulo-card">
-                <img class="img-card" src="../static/images/master.png">
+                <img class="img-card" src="/static/images/master.png">
                    <h2>Scrum Master</h2>
              </div>
                    <p class="para">
@@ -162,7 +162,7 @@
        <div class="card-conceito">
           <div class="content-mod1">
              <div class="titulo-card">
-                <img class="img-card" src="../static/images/PO.webp">
+                <img class="img-card" src="/static/images/PO.webp">
                    <h2>Product Owner</h2>
              </div>
                    <p class="para">
@@ -175,7 +175,7 @@
        <div class="card-conceito">
           <div class="content-mod1">
              <div class="titulo-card">
-                <img class="img-card" src="../static/images/dev team.png">
+                <img class="img-card" src="/static/images/dev team.png">
                    <h2>Dev Team</h2>
              </div>
                    <p class="para">
@@ -187,18 +187,22 @@
     </section>
     <!-- Tópico 3 -->
  </main>
- 
- <section class="Mod3-quest">
-   <div class="Mod3-quest-quest">
-      <a href="{{ url_for('quest1') }}" class="Mod3-quest-quest"><b>QUESTIONÁRIO</b></a>
-   </div>
-   <a href="{{ url_for('index') }}" style="margin-right: 20px;">
-       <img src="../static/images/casabranca.png" alt="" style="width: 80%;">
+
+ <section class="secmenu" >
+
+   <a href="{{ url_for('quest4') }}">
+      <button class="botaomenu">Avaliação</button>
    </a>
-   <div class="button-section">
-      <a href="{{ url_for('modulo2') }}" class="start-button">Avançar</a>
-   </div>
-</section>
+   
+      <a href="{{ url_for('index') }}">
+         <img class="casamodulos" src="/static/images/casabranca.png" alt="">
+      </a>
+      
+   <a href="{{ url_for('modulo5') }}">
+      <button class="botaomenu">Continuar</button>
+   </a>
+   
+   </section>
 
  
  
@@ -206,12 +210,12 @@
  <footer> 
          
     <a href="https://github.com/Os-Python-On/API-OsPythonOn">
-        <img id="gitfooter" src="../static/images/github.png" alt="GitHub">
+        <img id="gitfooter" src="/static/images/github.png" alt="GitHub">
     </a>
         <p id="pfooter" >© Copyright Os Python On 2024</p> 
  </footer>
  
  <!--=============== MAIN JS ===============-->
- <script src="../static/js/main.js"></script>
+ <script src="/static/js/main.js"></script>
 </body>
 </html>

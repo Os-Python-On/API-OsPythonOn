@@ -15,7 +15,7 @@
 
 
     <!-- ===================CSS=================== -->
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../style.css">
 
 </head>
 <body>
@@ -24,7 +24,7 @@
       <nav class="nav container">
          <div class="nav__data">
             <a href="{{ url_for('index') }}" class="nav__logo">
-               <img class="logo" src="../static/images/roxa.png" alt=""> Os Python On
+               <img class="logo" src="static/images/roxa.png" alt=""> Os Python On
             </a>
               
               <div class="nav__toggle" id="nav-toggle">
@@ -43,7 +43,7 @@
                  <!--=============== DROPDOWN 1 ===============-->
                  <li class="dropdown__item">
                     <div class="nav__link">
-                      Módulos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                      Módulos 
                     </div>
 
                     <ul class="dropdown__menu">
@@ -52,14 +52,14 @@
                        <li class="dropdown__subitem">
                           <a href="{{ url_for('modulo1') }}">
                           <div class="dropdown__link">
-                            <p>Módulo</p>1<i class="ri-add-line dropdown__add"></i>
+                            <p>Módulo</p>1
                           </div>
                         </a>
                           
                           <li class="dropdown__subitem">
                              <a href="{{ url_for('modulo2') }}">
                              <div class="dropdown__link">
-                                Módulo 2<i class="ri-add-line dropdown__add"></i>
+                                Módulo 2
                              </div>
                           </a>
      
@@ -67,7 +67,7 @@
                              <li class="dropdown__subitem">
                                 <a href="{{ url_for('modulo3') }}">
                                 <div class="dropdown__link">
-                                   Módulo 3<i class="ri-add-line dropdown__add"></i>
+                                   Módulo 3
                                 </div>
                              </a>
      
@@ -75,7 +75,7 @@
                                 <li class="dropdown__subitem">
                                    <a href="{{ url_for('modulo4') }}">
                                    <div class="dropdown__link">
-                                      <p>Módulo</p> 4<i class="ri-add-line dropdown__add"></i>
+                                      <p>Módulo</p> 4
                                    </div>
                                 </a>
          
@@ -83,7 +83,7 @@
                                    <li class="dropdown__subitem">
                                       <a href="{{ url_for('modulo5') }}">
                                 <div class="dropdown__link">
-                                   Módulo 5<i class="ri-add-line dropdown__add"></i>
+                                   Módulo 5
                                 </div>
                              </a>
      
@@ -120,7 +120,10 @@
     </section>
 
     <section class="Artefatos-do-Scrum">
-        <h1 class="h1-modulo2">Artefatos do Scrum</h1>
+        <h1 class="h2-modulo2">Artefatos do Scrum</h1>
+
+<span id="spanartefatos">
+    <article id="artm2" >
         <div class="card-modulo2">
             <div class="card-details-modulo2">
                 <p class="text-title-modulo2">Product Backlog</p>
@@ -135,6 +138,8 @@
             </div>
             <button class="card-button-modulo2">More info</button>
         </div>
+
+    </article>
         <div class="card-modulo2">
             <div class="card-details-modulo2">
                 <p class="text-title-modulo2">Increment</p>
@@ -144,11 +149,13 @@
         </div>
         <p class="p-card-modulo2">Esses três componentes trabalham juntos para garantir que o desenvolvimento do produto seja organizado, priorizado e orientado a resultados, permitindo uma entrega contínua de valor ao cliente.
         </p>
+    </section>
+</span>
     <!--=====accordion======-->
-         <div class="wrapper">
-            <h4 id="h4duvidas">Definition-of-Done (DoD)</h4>
+         <div class="acordeaom2">
             
         <div id="container2">
+            <h4 id="h4duvidas">Definition-of-Done (DoD)</h4>
             <div class="accordion2">
                 <button class="accordion-header2">
                     <span> ➤ Definição.</span>
@@ -189,9 +196,10 @@
             </div>
     
     
-            <h4 id="h4duvidas">Definition-of-Ready (DoR)</h4>
+            
             
             <div id="container2">
+                <h4 id="h4duvidas">Definition-of-Ready (DoR)</h4>
             <div class="accordion2">
                 <button class="accordion-header2">
                     <span> ➤ Definição.</span>
@@ -235,22 +243,27 @@
 
 </main>                 
 
-<section class="Mod3-quest">
-    <div class="Mod3-quest-quest">
-       <a href="{{ url_for('quest2') }}" class="Mod3-quest-quest"><b>QUESTIONÁRIO</b></a>
-    </div>
-    <a href="{{ url_for('index') }}" style="margin-right: 20px;"><img src="../static/images/casabranca.png" alt="" style="width: 80%;"></a>
-    <div class="button-section">
-       <a href="{{ url_for('modulo3') }}" class="start-button">Avançar</a>
-   </div>
- </section>
- 
+<section class="secmenu" >
+
+    <a href="{{ url_for('quest4') }}">
+       <button class="botaomenu">Teste</button>
+    </a>
+    
+       <a href="{{ url_for('index') }}">
+          <img class="casamodulos" src="static/images/casabranca.png" alt="">
+       </a>
+       
+    <a href="{{ url_for('modulo5') }}">
+       <button class="botaomenu">Avançar</button>
+    </a>
+    
+    </section>
 
 
 <footer> 
 
 <a href="https://github.com/Os-Python-On/API-OsPythonOn">
-<img id="gitfooter" src="../static/images/github.png" alt="GitHub">
+<img id="gitfooter" src="static/images/github.png" alt="GitHub">
 </a>
 <p id="pfooter" >© Copyright Os Python On 2024</p> 
 </footer>

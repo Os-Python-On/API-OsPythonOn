@@ -63,7 +63,7 @@ Fornecer informações completas sobre todos os tópicos abordados, fazendo com 
 Apresentação das funcionalidades
 Confira a seguir uma demonstração das funcionalidades para cada tipo de usuário do sistema:
 
-[![Vídeo Demonstrativo](https://cdn-icons-png.flaticon.com/512/2468/2468825.png)](https://youtu.be/2_Dmvu4s8dQ)
+![video_API](https://github.com/user-attachments/assets/ef381c82-3b42-4a49-ae72-61bd544598bb)
 
 ## Tecnologias Utilizadas
 

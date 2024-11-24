@@ -1414,7 +1414,10 @@ footer{
   /*CSS DO MODULO 2*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+.Eventos-no-Scrum-m2{
+  margin-left: 12em;
+  margin-right: 12em;
+}
 
 .h1-modulo2{
   margin: 60px;
@@ -1426,26 +1429,33 @@ footer{
   text-align: center;
 }
 .h2-modulo2{
-  margin-top: 2rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
-  margin-left: 11em;
-  margin-right: 11em;
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 23px;
+  font-size: 30px;
 }
-.p-modulo2{
 
-  margin-left: 14em;
-  margin-right: 14em;
+.h6-modulo2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.p-modulo2{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   font-style: normal;
-  
+  text-align: justify;
+  line-height: 1.5em;
 }
 .Artefatos-do-Scrum{
   display: flex;
@@ -1457,6 +1467,7 @@ footer{
 #artm2{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .card-modulo2 {
   width: 500px;
@@ -1521,8 +1532,8 @@ footer{
   text-align: center;
   margin-left: 6em;
   margin-right: 6em;
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
   font-weight: 500;
   font-style: normal;
  }
@@ -1585,6 +1596,13 @@ footer{
 .accordion2:has(.active) .arrow{
   transform: rotate(180deg);
 }
+#spanartefatos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 
  /*Responsividade do Módulo 2*/
  @media screen and (max-width: 730px) {
@@ -1598,6 +1616,14 @@ footer{
     
   }
 
+  .p-card-modulo2{
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .h6-modulo2{
+    font-size: 30px;
+  }
   .h2-modulo2 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1635,6 +1661,8 @@ footer{
 
   .Artefatos-do-Scrum {
     padding: 1rem;
+    margin-right: 2em;
+    margin-left: 2em;
   }
 
   .Eventos-no-Scrum-m2{
@@ -1673,9 +1701,12 @@ footer{
 
 @media screen and (max-width: 480px) {
 
+  .p-card-modulo2{
+    line-height: 1.4em;
+  }
   #spanartefatos{
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   #artm2{
@@ -1734,28 +1765,32 @@ footer{
     font-size: 40px;
     text-align: center;
     font-family: "Poppins", sans-serif;
+    margin-top: 8rem;
 }
   .h2-modulo3{
-    margin-top: 2rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
-    margin-left: 11em;
-    margin-right: 11em;
     color: white;
     font-weight: 700;
     font-style: normal;
-    font-size: 23px;
+    font-size: 30px;
     font-family: "Poppins", sans-serif;
 }
   .p-modulo3{
-  
-    margin-left: 14em;
-    margin-right: 14em;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     font-style: normal;
     font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    line-height: 1.5em;
 }
+
+.Auto-organização{
+  margin-left: 12em;
+  margin-right: 12em;
+}
+
 canvas#burndownChart {
     display: block;
     margin: 3rem auto; 
@@ -1831,6 +1866,10 @@ canvas#burndownChart {
   background-color: #d0d0d0;
 }
 
+.burndown{
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
 
 @media (max-width: 768px) {
     .cards-modulo3__container {
@@ -1851,9 +1890,31 @@ canvas#burndownChart {
     .cards-modulo3__content {
         font-size: 1rem; 
     }
-}
+
+    .burndown{
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
+    .Auto-organização{
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+
+    .h1-modulo3{
+      margin: 0;
+      color: white;
+      font-weight: 900;
+      font-style: normal;
+      font-size: 28px;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      margin-top: 8rem;
+  }
+  }
 
 /*CSS do Módulo 5*/
+
 
 .MainModulo5{
   margin-left: 15%;
@@ -1960,13 +2021,20 @@ canvas#burndownChart {
   width: 13%;}
 
 /*Cards Jira, Trello e Azure*/
+
+.imgsec2m5{
+ width: 10em;
+
+}
 .Cont-GestScrum{
   display: flex;
   flex-direction: row;
   width: 100%;
   align-items: center;  
   justify-content: space-evenly;
-  gap: 20px;}
+  gap: 20px;
+  margin-top: 3em;
+}
 
 .Cont-GestScrum-card {
   display: flex;
@@ -1985,15 +2053,16 @@ canvas#burndownChart {
 
 .Cont-GestScrum-card .img-box {
   position: absolute;
-  margin: 10px 0;
-  width: 250px;
-  height: 250px;
+  margin: 44px 0;
+  width: 150px;
+  height: 170px;
   top: 0px;
   transition: 0.5s;}
 
 .Cont-GestScrum-card:hover .img-box {
-  top: -100px;
-  scale: 0.75;}
+  top: -50px;
+  scale: 0.75;
+}
 
 
 .Cont-GestScrum-card .img-box img{
@@ -2027,10 +2096,28 @@ canvas#burndownChart {
   border-radius: 20px;
 }
 
+.p-modulo5{
+  text-align: justify;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
 @media (max-width: 900px){
   .Cont-GestScrum{
       flex-direction: column;
       align-items: center;
+      justify-content: center;
+  }
+
+  .hmodulo5{
+    font-size: 25px;
+  }
+  
+  .Cont-Amazon > p{
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 /*Cards Jira, Trello e Azure*/
@@ -2047,7 +2134,7 @@ canvas#burndownChart {
   margin-bottom: 50px;
   margin-top: 90px;
   font-weight: 1000;
-  font-size: 40px;}
+}
 
 .Cont-ScrumDigital > p{
   margin-bottom: 15px;
@@ -2132,16 +2219,28 @@ canvas#burndownChart {
 }
 
 #sec2m4{
-  margin-right: 12em;
-  margin-left: 12em;
   margin-top: 12em;
 }
-.pmodu4{
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  text-align: justify;
-  font-size: 1.1em;
+
+#art3m4{
+  margin-left: 12em;
+  margin-right: 12em;
 }
+
+#sec3m4{
+  margin-left: 12em;
+  margin-right: 12em
+}
+
+.pmodu4{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    line-height: 1.5em;
+  }
 
 .pmodu42{
   color: white;
@@ -2179,6 +2278,7 @@ canvas#burndownChart {
   font-weight: 400;
   line-height: 1.5em;
   color: #452c2c;
+  text-align: justify;
 }
 
 .product-description {
@@ -2319,6 +2419,16 @@ canvas#burndownChart {
 
 @media screen and (max-width: 730px) {
   
+#sec3m4{
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+  #art3m4{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
   #artm4{
     display: flex;
     flex-direction: column;
@@ -2331,7 +2441,7 @@ canvas#burndownChart {
     color: white;
     font-weight: 900;
     font-style: normal;
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;
     font-family: "Poppins", sans-serif;
     margin-left: 0.2em;
@@ -2342,6 +2452,8 @@ canvas#burndownChart {
     display: flex;
     align-items: center;
     margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
 }
 
 .wrapper {
@@ -2534,7 +2646,7 @@ canvas#burndownChart {
 }
 
 .botaomenu {
-  padding: 10px 30px;
+  padding: 11px 21px;
   border-radius: 50px;
   cursor: pointer;
   border: 0;

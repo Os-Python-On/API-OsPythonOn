@@ -2039,3 +2039,464 @@ canvas#burndownChart {
       text-align: center;
       margin-bottom: 30px;}
   }
+
+ /* Modulo 4 */
+
+  .h1-modulo4{
+    margin-top: 1.5em;
+    margin-bottom: 2.2em;
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+#sec1m4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+#artm4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#sec2m4{
+  margin-right: 12em;
+  margin-left: 12em;
+  margin-top: 12em;
+}
+.pmodu4{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.pmodu42{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-size: 1.1em;
+  margin-bottom: 2em;
+}
+
+.subsm4{
+  color: white;
+  font-size: 28px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#art2m4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+/* Cards Scrum vs Outras Metodologias Ágeis */
+.product-title {
+  color: #262626;
+  font-size: 1.5em;
+  line-height: normal;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.product-description {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #452c2c;
+}
+
+.product-description {
+  font-size: 1em;
+}
+
+.action-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background: linear-gradient(135deg, #6293c8, #384c6c);
+  border-radius: 0 4px 0 32px;
+}
+
+.action-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.product-card {
+  display: block;
+  position: relative;
+  max-width: 360px;
+  max-height: 700px;
+  background-color: #f2f8f9;
+  border-radius: 10px;
+  padding: 2em 1.2em;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-card:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: linear-gradient(135deg, #364a60, #384c6c);
+  height: 45px;
+  width: 45px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.35s ease-out;
+}
+
+.product-card:hover:before {
+  transform: scale(28);
+}
+
+.product-card:hover .product-description {
+  transition: all 0.5s ease-out;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.product-card:hover .product-title {
+  transition: all 0.5s ease-out;
+  color: #ffffff;
+}
+
+/* cards seção 1 */ 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#wrapper1 {
+  margin-right: 2em;
+}
+
+#wrapper2 {
+  margin-left: 2em;
+}
+
+.wrapper .highlighted {
+  background-color: #8302df;
+}
+
+.wrapper .primary {
+  background-color: #8302df;
+}
+
+.wrapper .secondary {
+  background-color: #8302df;
+}
+
+.wrapper .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.wrapper .box p.main-text {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.wrapper .box p.additional-text {
+  font-size: 0.85em;
+  margin: 9px;
+}
+
+.wrapper .box:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.wrapper:hover > .box:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+
+.main-text {
+  margin-bottom: 8px;
+}
+
+/* Responsividade Modulo 4 */ 
+
+@media screen and (max-width: 730px) {
+  
+  #artm4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .h1-modulo4{
+    margin-top: 1.5em;
+    margin-bottom: 2.2em;
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 23px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+  }
+
+  #sec1m4{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.wrapper {
+  max-width: 75%;
+  margin: 0;
+}
+
+.wrapper .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 170px;
+  width: 300px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+#wrapper1 {
+  margin-right: 0;
+  margin-bottom: 1.2em;
+}
+
+#wrapper2 {
+  margin-left: 0;
+}
+
+#sec2m4{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#art2m4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.product-title {
+  color: #262626;
+  font-size: 1em;
+  line-height: normal;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.product-description {
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #452c2c;
+}
+
+.product-card {
+  display: block;
+  position: relative;
+  max-width: 300px;
+  max-height: 500px;
+  background-color: #f2f8f9;
+  border-radius: 10px;
+  padding: 2em 1.2em;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.subsm4{
+  color: white;
+  font-size: 20px;
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
+
+.pmodu4{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  line-height: 1.7em;
+}
+
+.pmodu42{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  margin-bottom: 2em;
+  line-height: 1.5em;
+}
+
+.Mod3-quest {
+  margin-right: 0;
+  padding: 100px;
+  display: flex
+;
+  align-items: center;
+  justify-content: center;
+}
+  }
+
+/* Menu footer modulos estava bugado, nessa seção estou corrigindo */ 
+
+.casamodulos{
+    width: 3em;
+}
+
+/* From Uiverse.io by reshades */ 
+.button {
+  background-color: #ffffff00;
+  color: #fff;
+  width: 8.5em;
+  height: 2.9em;
+  border: #8302df 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+}
+
+.button:hover {
+  background-color: #8302df;
+  cursor: pointer;
+}
+
+.button svg {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.button:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin: 0 1.5em
+}
+
+.secmenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6em;
+}
+
+
+.botaomenu {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  margin: 1.5em;
+}
+
+.botaomenu:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.botaomenu:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+
+@media screen and (max-width: 730px) {
+
+  .casamodulos{
+    width: 2.9em;
+}
+
+.botaomenu {
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: all 0.5s ease;
+  margin: 1.5em;
+}
+
+.botaomenu:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.botaomenu:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+}

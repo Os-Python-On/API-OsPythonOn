@@ -105,14 +105,17 @@
  </div>
  
  
-<div class="button-container">
-   <div class="home-icon">
-   <a href="{{ url_for('index') }}"><img src="../static/images/casabranca.png" alt="Ícone Home"></a>
-   </div>
-   <div class="button-section">
-       <a href="{{ url_for('modulo5') }}" class="start-button">Avançar</a>
-   </div>
-</div>
+<section class="secmenu" >
+
+   <a href="{{ url_for('index') }}">
+      <img class="casamodulos" src="static/images/casabranca.png" alt="">
+   </a>
+   
+<a href="{{ url_for('modulo5') }}">
+   <button class="botaomenu">Continuar</button>
+</a>
+
+</section>
 
  <footer> 
    

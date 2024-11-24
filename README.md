@@ -134,12 +134,12 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
       
 ## Sprint 3 . Implementação
 - [x] Site funcionando na AWS
-- [ ] Responsividade de todos os módulos
-- [ ] Site completamente funcional
+- [x] Responsividade de todo o site(modulos e questionarios)
+- [x] Site completamente funcional
 - [x] Conteúdo finalizado
 - [x] Todo o questionário no site
-- [ ] Correção de Bugs
-- [ ] Pequenas melhorias no design do site
+- [x] Correção de Bugs
+- [x] Pequenas melhorias no design do site
 
 ## ❓ Como usar o site no seu computador - Windows
 

@@ -366,6 +366,8 @@ a {
   color: rgb(255, 255, 255);
   font-size: 1.1em;
   font-family: "Kanit", sans-serif;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
 }
 
 #secum{
@@ -725,6 +727,7 @@ button > svg {
   #secoqueaprendera{
     display: flex;
     align-items: center;
+    margin-bottom: em;
   }
   
   #h3aprender {
@@ -735,18 +738,18 @@ button > svg {
   /* Seção FAQ*/
 
 
-.wrapper {
+.divfaq {
   max-width: 75%;
   margin: auto;
 }
 
-.wrapper > p,
-.wrapper > h1 {
+.divfaq > p,
+.divfaq > h1 {
   margin: 1.5rem 0;
   text-align: center;
 }
 
-.wrapper > h1 {
+.divfaq > h1 {
   letter-spacing: 3px;
 }
 
@@ -797,13 +800,14 @@ button > svg {
 
 #h4duvidas{
   color: white;
-  margin-top: 3em;
   font-size: 2em;
+  margin-bottom: 1em;
 }
 @media screen and (max-width: 730px) {
   
   #h4duvidas{
     text-align: center;
+    
   }
 
   }
@@ -1064,6 +1068,13 @@ footer{
 
 @media screen and (max-width: 730px) {
   
+
+  .card-intro p{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+  }
+
  .ias{
   font-size: 1.5em;
   margin-top: 80px;
@@ -1071,6 +1082,8 @@ footer{
 
  .card-introducao{
   margin-top: 40px;
+  margin-right: 1.8em;
+  margin-left: 1.8em;
 }
 
 .pmod1{
@@ -1393,6 +1406,11 @@ footer{
   margin-bottom: 80px;
 }
 
+.acordeaom2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
   /*CSS DO MODULO 2*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -1433,6 +1451,12 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5em;
+}
+
+#artm2{
+  display: flex;
+  flex-direction: row;
 }
 .card-modulo2 {
   width: 500px;
@@ -1444,7 +1468,7 @@ footer{
   border: 2px solid #c3c6ce;
   transition: 0.5s ease-out;
   overflow: visible;
-  margin: 0 0 60px;
+  margin: 50px;
  }
  
  .card-details-modulo2 {
@@ -1495,8 +1519,8 @@ footer{
  .p-card-modulo2{
   color: white;
   text-align: center;
-  margin-left: 14em;
-  margin-right: 14em;
+  margin-left: 6em;
+  margin-right: 6em;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 500;
@@ -1509,6 +1533,7 @@ footer{
   width: 100%;
   max-width: 1000px;  /* Limite de largura para telas maiores */
   margin: 0 auto;  /* Centraliza o container na tela */
+  margin-top: 2em;
 }
 
 .accordion2{
@@ -1536,6 +1561,7 @@ footer{
   font-weight: bold;
   font-size: 1.5rem;
 }
+
 .accordion-body2{
   color: #444;
   font-size: 14px;
@@ -1566,6 +1592,7 @@ footer{
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0;
+    margin-top: 1.5em;
     font-size: 30px;
     text-align: center;
     
@@ -1575,7 +1602,7 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0;
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
   }
 
@@ -1600,27 +1627,64 @@ footer{
   }
 
   .p-card-modulo2 {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 0;
+    margin-right: 0;
     font-size: 20px;
+    text-align: justify;
   }
 
   .Artefatos-do-Scrum {
     padding: 1rem;
   }
+
+  .Eventos-no-Scrum-m2{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .accordion2{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+  }
+  .accordion-header2{
+    width:100%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    cursor:pointer;
+  }
+
+  #container2{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 100%;
+    max-width: 350px;  /* Limite de largura para telas maiores */
+    margin: 0 auto;  /* Centraliza o container na tela */
+    margin-top: 2em;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .h1-modulo2 {
-    font-size: 24px;
+
+  #spanartefatos{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
   }
 
-  .h2-modulo2 {
-    font-size: 16px;
+  #artm2{
+    display: flex;
+    flex-direction: column;
   }
-
   .p-modulo2 {
     font-size: 16px;
+    line-height: 1.7em;
   }
 
   .card-modulo2 {

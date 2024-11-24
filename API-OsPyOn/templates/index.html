@@ -1,26 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../static/images/roxa.png" type="image/x-icon">
-    <title>Os Python On</title>
-
-    <!--=============== REMIXICONS ===============-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-
-
-    <!-- ===================CSS=================== -->
-    <link rel="stylesheet" href="../static/style.css">
-
-</head>
 <body>
     <!--=============== HEADER ===============-->
     <header class="header">
       <nav class="nav container">
          <div class="nav__data">
             <a href="{{ url_for('index') }}" class="nav__logo">
-               <img class="logo" src="../static/images/roxa.png" alt=""> Os Python On
+               <img class="logo" src="/static/images/roxa.png" alt=""> Os Python On
             </a>
               
               <div class="nav__toggle" id="nav-toggle">
@@ -48,14 +32,14 @@
                        <li class="dropdown__subitem">
                           <a href="{{ url_for('modulo1') }}">
                           <div class="dropdown__link">
-                            <p>Módulo</p>1<i class="ri-add-line dropdown__add"></i>
+                            <p>Módulo</p>1
                           </div>
                         </a>
                           
                           <li class="dropdown__subitem">
                              <a href="{{ url_for('modulo2') }}">
                              <div class="dropdown__link">
-                                Módulo 2<i class="ri-add-line dropdown__add"></i>
+                                Módulo 2
                              </div>
                           </a>
      
@@ -63,7 +47,7 @@
                              <li class="dropdown__subitem">
                                 <a href="{{ url_for('modulo3') }}">
                                 <div class="dropdown__link">
-                                   Módulo 3<i class="ri-add-line dropdown__add"></i>
+                                   Módulo 3
                                 </div>
                              </a>
      
@@ -71,7 +55,7 @@
                                 <li class="dropdown__subitem">
                                    <a href="{{ url_for('modulo4') }}">
                                    <div class="dropdown__link">
-                                      <p>Módulo</p> 4<i class="ri-add-line dropdown__add"></i>
+                                      <p>Módulo</p> 4
                                    </div>
                                 </a>
          
@@ -79,14 +63,14 @@
                                    <li class="dropdown__subitem">
                                       <a href="{{ url_for('modulo5') }}">
                                 <div class="dropdown__link">
-                                   Módulo 5<i class="ri-add-line dropdown__add"></i>
+                                   Módulo 5
                                 </div>
                              </a>
      
                              </ul>
                   
                           
-                          <li><a href="{{ url_for('index') }}" class="nav__link">FAQ</a></li>
+                          <li><a href="#faq" class="nav__link">FAQ</a></li>
                        </nav>
   </header>
 
@@ -95,7 +79,7 @@
 
 
      <article class="artsec1">
-          <img id="imghome" src="../static/images/teste.png" alt="um grupo de 3 pessoas montando um quebra cabeça">
+          <img id="imghome" src="/static/images/home.png" alt="um grupo de 3 pessoas montando um quebra cabeça">
         
         <div id="textohome">
         <h1 id="h1home">APRENDA <br> MÉTODO SCRUM!</h1>
@@ -131,7 +115,7 @@
 
            <h2 id="h2quemsomos">QUEM SOMOS</h2>
            
-           <img id="imgquemsomos" src="../static/images/imgquemsomos.png" alt="">
+           <img id="imgquemsomos" src="/static/images/imgquemsomos.png" alt="">
            
            <p id="pquemsomos">
                Na Os Python on, nossa paixão por agilidade e colaboração nos impulsiona a transformar a maneira como as equipes se conectam e 
@@ -161,7 +145,7 @@
 
 <article  id="artaprender" >
   <div class="cardhome">
-   <div class="image"><img src="../static/images/3.jpg" alt=""></div>
+   <div class="image"><img src="/static/images/2.jpg" alt=""></div>
     <div class="content">
       <a href="#">
         <aside class="title">
@@ -183,7 +167,7 @@
   </div>
 
   <div class="cardhome">
-     <div class="image"><img src="../static/images/1.jpg" alt=""></div>
+     <div class="image"><img src="/static/images/1.jpg" alt=""></div>
       <div class="content">
         <a href="#">
           <aside class="title">
@@ -205,7 +189,7 @@
     </div>
 
     <div class="cardhome">
-     <div class="image"><img src="../static/images/2.jpg" alt=""></div>
+     <div class="image"><img src="/static/images/3.jpg" alt=""></div>
       <div class="content">
         <a href="#">
           <aside class="title">
@@ -231,12 +215,12 @@
 
 <section id="faq" >
 
-  <div class="wrapper">
+  <div class="divfaq">
       <h4 id="h4duvidas">Perguntas frequentes</h4>
 
       <div class="faq">
         <button class="accordion">
-          ➤ Terei uma explicação completa sobre Scrum Master?
+          ➤ Terei uma explicação completa sobre o método Scrum?
           <i class="fa-solid fa-chevron-down"></i>
         </button>
         <div class="pannel">
@@ -279,12 +263,12 @@
 <footer> 
        
   <a href="https://github.com/Os-Python-On/API-OsPythonOn">
-      <img id="gitfooter" src="../static/images/github.png" alt="GitHub">
+      <img id="gitfooter" src="/static/images/github.png" alt="GitHub">
   </a>
       <p id="pfooter" >© Copyright Os Python On 2024</p> 
 </footer>
 <!--=============== MAIN JS ===============-->
-     <script src="../static/js/main.js"></script>
-     <script src="../static/js/faq.js"></script>
+     <script src="/static/js/main.js"></script>
+     <script src="/static/js/faq.js"></script>
 </body>
 </html>

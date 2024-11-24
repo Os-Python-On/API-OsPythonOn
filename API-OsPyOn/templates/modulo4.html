@@ -20,7 +20,7 @@
         <nav class="nav container">
            <div class="nav__data">
               <a href="#" class="nav__logo">
-                 <img class="logo" src="static/images/roxa.png" alt=""> Os Python On
+                 <img class="logo" src="/static/images/roxa.png" alt=""> Os Python On
               </a>
               
               <div class="nav__toggle" id="nav-toggle">
@@ -31,231 +31,63 @@
 
            <!--=============== NAV MENU ===============-->
            <div class="nav__menu" id="nav-menu">
-              <ul class="nav__list">
-                 <li><a href="{{ url_for('index') }}" class="nav__link">Home</a></li>
+            <ul class="nav__list">
+               <li><a href="{{ url_for('index') }}" class="nav__link">Home</a></li>
 
-             <li><a href="{{ url_for('conceito') }}" class="nav__link">Conceito</a></li>
+           <li><a href="{{ url_for('conceito') }}" class="nav__link">Conceito</a></li>
 
-                 <!--=============== DROPDOWN 1 ===============-->
-                 <li class="dropdown__item">
-                    <div class="nav__link">
-                      Módulos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                    </div>
+               <!--=============== DROPDOWN 1 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                    Módulos  <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
 
-                    <ul class="dropdown__menu">
+                  <ul class="dropdown__menu">
 
-                       <!--=============== DROPDOWN SUBMENU ===============-->
-                       <li class="dropdown__subitem">
-                          <a href="{{ url_for('modulo1') }}">
-                          <div class="dropdown__link">
-                            <p>Módulo</p>1<i class="ri-add-line dropdown__add"></i>
-                          </div>
-                       </a>
-                          <ul class="dropdown__submenu">
-                             <li>
-                                <a href="#" class="dropdown__sublink">
-                                    Definição
-                                </a>
-                             </li>
-     
-                             <li>
-                                <a href="#" class="dropdown__sublink">
-                                    Origem
-                                </a>
-                             </li>
-     
-                             <li>
-                                <a href="#" class="dropdown__sublink">
-                                    Características 
-                                </a>
-                             </li>
-     
-                             <li>
-                                <a href="#" class="dropdown__sublink">
-                                   Transparência 
-                                </a>
-                             </li>
-     
-                             <li>
-                                <a href="#" class="dropdown__sublink">
-                                    Inspeção
-                                </a>
-                             </li>
-     
-                             <li>
-                                <a href="#" class="dropdown__sublink">
-                                    Adaptação 
-                                </a>
-                             </li>
-     
-                             <li>
-                                <a href="#" class="dropdown__sublink">
-                                   Product Owner 
-                                </a>
-                             </li>
-     
-                             <li>
-                                <a href="#" class="dropdown__sublink">
-                                    Scrum Master 
-                                </a>
-                             </li>
-     
-                             <li>
-                                <a href="#" class="dropdown__sublink">
-                                    Dev Team 
-                                </a>
-                             </li>
-                          </ul>
-                          
-                          <li class="dropdown__subitem">
-                             <a href="{{ url_for('modulo2') }}">
-                             <div class="dropdown__link">
-                                Módulo 2<i class="ri-add-line dropdown__add"></i>
-                             </div>
-                          </a>
-     
-                             <ul class="dropdown__submenu">
-                                <li>
-                                   <a href="#" class="dropdown__sublink">
-                                       Sprints
-                                   </a>
-                                </li>
-        
-                                <li>
-                                   <a href="#" class="dropdown__sublink">
-                                       Daily Scrum
-                                   </a>
-                                </li>
-        
-                                <li>
-                                   <a href="#" class="dropdown__sublink">
-                                       Product Backlog
-                                   </a>
-                                </li>
-     
-                                <li>
-                                   <a href="#" class="dropdown__sublink">
-                                       Sprint Backlog
-                                   </a>
-                                </li>
-        
-                                <li>
-                                   <a href="#" class="dropdown__sublink">
-                                       Increment
-                                   </a>
-                                </li>
-        
-                                <li>
-                                   <a href="#" class="dropdown__sublink">
-                                       Time-boxing
-                                   </a>
-                                </li>
-                             </ul>
-     
-                       
-                             <li class="dropdown__subitem">
-                                <a href="{{ url_for('modulo3') }}">
-                                <div class="dropdown__link">
-                                   Módulo 3<i class="ri-add-line dropdown__add"></i>
-                                </div>
-                             </a>
-     
-                                <ul class="dropdown__submenu">
-                                   <li>
-                                      <a href="#" class="dropdown__sublink">
-                                          Auto-organização
-                                      </a>
-                                   </li>
-           
-                                   <li>
-                                      <a href="#" class="dropdown__sublink">
-                                          Cross-funcionalidade
-                                      </a>
-                                   </li>
-           
-                                   <li>
-                                      <a href="#" class="dropdown__sublink">
-                                          Definition of Done
-                                      </a>
-                                   </li>
-     
-                                   <li>
-                                      <a href="#" class="dropdown__sublink">
-                                          Burndown
-                                      </a>
-                                   </li>
-                                </ul>
-     
-                                <li class="dropdown__subitem">
-                                   <a href="{{ url_for('modulo4') }}">
-                                   <div class="dropdown__link">
-                                      <p>Módulo</p> 4<i class="ri-add-line dropdown__add"></i>
-                                   </div>
-                                </a>
-        
-                                   <ul class="dropdown__submenu">
-                                      <li>
-                                         <a href="#" class="dropdown__sublink">
-                                             Comparação
-                                         </a>
-                                      </li>
-              
-                                      <li>
-                                         <a href="#" class="dropdown__sublink">
-                                             Escalabilidade
-                                         </a>
-                                      </li>
-              
-                                      <li>
-                                         <a href="#" class="dropdown__sublink">
-                                           Vantagens
-                                         </a>
-                                      </li>
-     
-                                      <li>
-                                         <a href="#" class="dropdown__sublink">
-                                             Desafios na Implementação
-                                         </a>
-                                      </li>
-                                   </ul>
-     
-                                   <li class="dropdown__subitem">
-                                      <a href="{{ url_for('modulo5') }}">
-                                <div class="dropdown__link">
-                                   Módulo 5<i class="ri-add-line dropdown__add"></i>
-                                </div>
-                             </a>
-     
-                                <ul class="dropdown__submenu">
-                                   <li>
-                                      <a href="#" class="dropdown__sublink">
-                                          Auto-organização
-                                      </a>
-                                   </li>
-           
-                                   <li>
-                                      <a href="#" class="dropdown__sublink">
-                                          Cross-funcionalidade
-                                      </a>
-                                   </li>
-           
-                                   <li>
-                                      <a href="#" class="dropdown__sublink">
-                                          Definition of Done
-                                      </a>
-                                   </li>
-     
-                                   <li>
-                                      <a href="#" class="dropdown__sublink">
-                                          Burndown
-                                      </a>
-                                      </li>
-                                   </ul>
-                             </ul>
-                  
-                          
-                          <li><a href="{{ url_for('index') }}" class="nav__link">FAQ</a></li>
-                       </nav>
+                     <!--=============== DROPDOWN SUBMENU ===============-->
+                     <li class="dropdown__subitem">
+                        <a href="{{ url_for('modulo1') }}">
+                        <div class="dropdown__link">
+                          <p>Módulo</p>1
+                        </div>
+                      </a>
+                        
+                        <li class="dropdown__subitem">
+                           <a href="{{ url_for('modulo2') }}">
+                           <div class="dropdown__link">
+                              Módulo 2
+                           </div>
+                        </a>
+   
+                     
+                           <li class="dropdown__subitem">
+                              <a href="{{ url_for('modulo3') }}">
+                              <div class="dropdown__link">
+                                 Módulo 3
+                              </div>
+                           </a>
+   
+   
+                              <li class="dropdown__subitem">
+                                 <a href="{{ url_for('modulo4') }}">
+                                 <div class="dropdown__link">
+                                    <p>Módulo</p> 4
+                                 </div>
+                              </a>
+       
+   
+                                 <li class="dropdown__subitem">
+                                    <a href="{{ url_for('modulo5') }}">
+                              <div class="dropdown__link">
+                                 Módulo 5
+                              </div>
+                           </a>
+   
+                           </ul>
+                
+                        
+                        <li><a href="{{ url_for('index') }}" class="nav__link">FAQ</a></li>
+                     </nav>
   </header>
 
 <section id="sec1m4" >
@@ -315,12 +147,14 @@
       
       <h2 class="h1-modulo4">Escalabilidade do Scrum</h2>
 
+   <article id="art3m4" >
       <p class="pmodu4" >A escalabilidade do Scrum refere-se à aplicação dos princípios e práticas do Scrum a projetos maiores ou mais complexos, nos quais várias equipes de desenvolvimento trabalham de forma coordenada em um único produto ou conjunto de produtos. O Scrum foi originalmente projetado para equipes pequenas, com cerca de 3 a 9 pessoas, mas muitas organizações enfrentam o desafio de escalar o framework para projetos maiores, com equipes distribuídas ou com múltiplas equipes trabalhando juntas. Escalar o Scrum não significa simplesmente ter mais Scrum Masters ou Product Owners, mas sim criar uma estrutura que mantenha os valores fundamentais do Scrum, como colaboração, transparência e entrega contínua de valor, ao mesmo tempo em que lida com a complexidade de múltiplas equipes.</p>
 
       <h3 class="subsm4" >Desafios da escalabilidade</h3>
 
       <p class="pmodu4">Gerenciar grandes projetos é complicado por causa do aumento no nível de complexidade das questões e na quantidade de tarefas a serem desenvolvidas por um pequeno grupo. Além disso, para organizar grandes grupos exige uma organização maior, tentando mantê-las sempre com a mesma visão do projeto. Para isso existem alguns métodos para facilitar esses desafios. Métodos como o Scrum of Scrums, LeSS e o SAFe foram projetados. Geralmente esse projeto seria dividido em várias partes e distribuídas para vários grupos diferentes.</p>
        
+   </article> 
       <article id="art2m4" >
       <div class="product-card">
         <p class="product-title">Scrum of Scrums</p>
@@ -329,7 +163,6 @@
 
 	Observação: Os representantes não são necessariamente o Scrum Master de cada equipe, pode haver alguém para dar informações mais detalhadas ao Master durante a reunião.</p>
         <div class="action-corner">
-          <div class="action-arrow">→</div>
         </div>
       </div>
       
@@ -342,7 +175,6 @@
 	Menos burocracia: Vários níveis hierárquicos aumentam a burocracia, porque precisaria repassar a informação várias vezes para chegar até o destino, então removê-los irá simplificar a comunicação das equipes.
  </p>
          <div class="action-corner">
-           <div class="action-arrow">→</div>
          </div>
        </div>
 
@@ -352,14 +184,13 @@
             Ao contrário do LeSS, o SAFe procura adicionar mais papeis, novas práticas e eventos para tentar organizar projetos muito grandes, ele é geralmente usado em empresas que possuem múltiplos níveis de governança. Em resumo, o SAFe é um framework poderoso para organizações que buscam adotar práticas ágeis em grande escala, proporcionando uma estrutura para coordenar várias equipes e iniciativas de forma eficiente e alinhada aos objetivos estratégicos da empresa. No entanto, sua implementação requer cuidado para evitar sobrecarga de processos e garantir que os benefícios da agilidade sejam mantidos.
          </p>
          <div class="action-corner">
-           <div class="action-arrow">→</div>
          </div>
        </div>
       </article>
 
   </section>
 
-<section id="sec2m4">
+<section id="sec3m4">
   <h4 class="h1-modulo4">Vantagens na Implementação do Scrum</h4>
 
 
@@ -392,22 +223,28 @@
 <section class="secmenu" >
 
 <a href="{{ url_for('quest4') }}">
-   <button class="botaomenu">Teste</button>
+   <button class="botaomenu">Avaliação</button>
 </a>
 
    <a href="{{ url_for('index') }}">
-      <img class="casamodulos" src="static/images/casabranca.png" alt="">
+      <img class="casamodulos" src="/static/images/casabranca.png" alt="">
    </a>
    
 <a href="{{ url_for('modulo5') }}">
-   <button class="botaomenu">Avançar</button>
+   <button class="botaomenu">Continuar</button>
 </a>
 
 </section>
 
     <footer> 
         <a href="https://github.com/Os-Python-On/API-OsPythonOn">
-            <img id="gitfooter" src="static/images/github.png" alt="GitHub">
+            <img id="gitfooter" src="/static/images/github.png" alt="GitHub">
         </a>
             <p id="pfooter" >© Copyright Os Python On 2024</p> 
     </footer>
+
+     <!--=============== MAIN JS ===============-->
+ <script src="/static/js/main.js"></script>
+    
+</body>
+</html>

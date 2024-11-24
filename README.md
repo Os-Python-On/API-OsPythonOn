@@ -63,7 +63,7 @@ Fornecer informações completas sobre todos os tópicos abordados, fazendo com 
 Apresentação das funcionalidades
 Confira a seguir uma demonstração das funcionalidades para cada tipo de usuário do sistema:
 
-![video_API](https://github.com/user-attachments/assets/ef381c82-3b42-4a49-ae72-61bd544598bb)
+![video_API-1000](https://github.com/user-attachments/assets/c6e33375-e0b4-4806-862a-11e0a0c326f6)
 
 ## Tecnologias Utilizadas
 

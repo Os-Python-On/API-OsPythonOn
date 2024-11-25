@@ -148,9 +148,9 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 ![infografico de como baixar](https://github.com/user-attachments/assets/76cd4210-d54e-49cf-9fc6-7e12eb60d620)
 • No caminho localizado, digite os seguintes comandos:
 
+```
 (MUITO IMPORTANTE QUE ENTRE NA PASTA (API-OsPyOn) E COLE ESSE DIRETÓRIO!)
 
-```
 1- python -m venv venv
 
 2- .\venv\Scripts\activate

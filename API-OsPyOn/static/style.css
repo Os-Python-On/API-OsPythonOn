@@ -1702,7 +1702,7 @@ footer{
 @media screen and (max-width: 480px) {
 
   .p-card-modulo2{
-    line-height: 1.4em;
+    line-height: 1.8em;
   }
   #spanartefatos{
     margin-left: 0;
@@ -1872,6 +1872,17 @@ canvas#burndownChart {
 }
 
 @media (max-width: 768px) {
+
+  .p-modulo3{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    line-height: 1.9em;
+}
+
     .cards-modulo3__container {
         flex-direction: column;
         align-items: center;
@@ -1910,6 +1921,7 @@ canvas#burndownChart {
       text-align: center;
       font-family: "Poppins", sans-serif;
       margin-top: 8rem;
+      margin-bottom: 1.5em;
   }
   }
 
@@ -2489,8 +2501,12 @@ margin-left: 2em;
 }
 
 #sec2m4{
-  margin-left: 2em;
-  margin-right: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 #art2m4{
@@ -2506,6 +2522,11 @@ margin-left: 2em;
   line-height: normal;
   font-weight: 700;
   margin-bottom: 0.5em;
+}
+
+.MainModulo5{
+  margin-left: 2.2em;
+  margin-right: 2.2em;
 }
 
 .product-description {

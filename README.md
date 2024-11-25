@@ -70,17 +70,7 @@ https://youtu.be/m6xBKumPmh0
 ## Tecnologias Utilizadas
 
  * <p align="left">
-    <ul>
-      <li>  
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="50px" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50px" /> <img src="https://github.com/user-attachments/assets/fd49f6da-ff1e-413b-a1f4-1ff3d9035170" width="50" height="50">
-      </li>
-      <li>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width="50px" /> <img src="https://github.com/user-attachments/assets/ea361bbc-ba28-464b-9141-586e10433113" width="50px">
-      </li>
-      <li>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="50px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="50px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="50px"> <img src="https://github.com/user-attachments/assets/93ca6e1b-9817-4303-8757-390b51d2e7ed" width="100">
-      </li>
-   </ul>
+   ![Tecnologias utilizadas](https://github.com/user-attachments/assets/e5ba0a8e-1c60-408a-9cbf-a7fd85de1f4e)
 </p>
 
 

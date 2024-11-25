@@ -69,11 +69,7 @@ https://youtu.be/m6xBKumPmh0
 
 ## Tecnologias Utilizadas
 
- * <p align="left">
-   ![Tecnologias utilizadas](https://github.com/user-attachments/assets/e5ba0a8e-1c60-408a-9cbf-a7fd85de1f4e)
-</p>
-
-
+ * ![Tecnologias utilizadas](https://github.com/user-attachments/assets/e5ba0a8e-1c60-408a-9cbf-a7fd85de1f4e)
 
 # Backlog do produto
 

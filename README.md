@@ -64,7 +64,7 @@ Fornecer informações completas sobre todos os tópicos abordados, fazendo com 
 Apresentação das funcionalidades
 Confira a seguir uma demonstração das funcionalidades para cada tipo de usuário do sistema:
 
-![video_API-1000](https://github.com/user-attachments/assets/1d09831c-918e-4866-a779-aa6b70467e37)
+![video_API ]([https://github.com/user-attachments/assets/1d09831c-918e-4866-a779-aa6b70467e37](https://github.com/Os-Python-On/API-OsPythonOn/issues/4#issue-2688907238))
 
 ## Tecnologias Utilizadas
 

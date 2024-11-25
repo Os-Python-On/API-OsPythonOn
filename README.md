@@ -8,6 +8,7 @@ Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividad
 # Índice
 * [Objetivo do Projeto](#objetivo-do-projeto)
 * [Funcionalidades e registros (vídeos e apresentações) das sprints ](#funcionalidades-e-registros-(vídeos-e-apresentações)-das-sprints)
+* [Como baixar o site](#Como-baixar-o-site)
 * [Backlog do produto](#Backlog-do-produto)
 * [Competências desenvolvidas](#competências-desenvolvidas)
 * [Autores](#autores)
@@ -142,6 +143,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 - [x] Pequenas melhorias no design do site
 
 ## ❓ Como usar o site no seu computador - Windows
+# Como baixar o site
 
 ![infografico de como baixar](https://github.com/user-attachments/assets/76cd4210-d54e-49cf-9fc6-7e12eb60d620)
 • No caminho localizado, digite os seguintes comandos:

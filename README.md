@@ -149,7 +149,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 • No caminho localizado, digite os seguintes comandos:
 
 ```
-(MUITO IMPORTANTE QUE ENTRE NA PASTA (API-OsPyOn) E COLE ESSE DIRETÓRIO!)
+# MUITO IMPORTANTE QUE ENTRE NA PASTA (API-OsPyOn) E COLE ESSE DIRETÓRIO!
 
 1- python -m venv venv
 

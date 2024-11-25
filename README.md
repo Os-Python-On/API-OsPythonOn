@@ -67,7 +67,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 ## Tela Home e Modulos
 ![Gif da API 3ª sprint Os Python On Tela Home e Modulos](https://github.com/user-attachments/assets/5518702a-af58-4149-a042-05eb16e96837)
 ## Tela de Questionarios
-
+![Gif da API 3ª sprint Os Python On Tela de Questionarios](https://github.com/user-attachments/assets/179838ac-22e0-4537-a5c0-7d72387a70d0)
 ## Link para o Video Completo
 https://youtu.be/m6xBKumPmh0
 

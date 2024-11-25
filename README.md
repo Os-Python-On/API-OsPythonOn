@@ -65,7 +65,7 @@ Apresentação das funcionalidades
 Confira a seguir uma demonstração das funcionalidades para cada tipo de usuário do sistema:
 
 ## Tela Home e Modulos
-![Gif da API 3ª sprint Os Python On](https://github.com/user-attachments/assets/e149ee32-868e-4760-a9d9-71652a6da4d5)
+![Gif da API 3ª sprint Os Python On Tela Home e Modulos](https://github.com/user-attachments/assets/5518702a-af58-4149-a042-05eb16e96837)
 ## Tela de Questionarios
 
 ## Link para o Video Completo

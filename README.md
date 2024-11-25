@@ -53,7 +53,7 @@ Este projeto tem como objetivo ajudar e facilitar a utilização de Metodologias
 * Desenvolver habilidades técnicas
 
 # MVP
-![image](https://github.com/user-attachments/assets/7fe85450-6ad6-4340-9c1e-91c38f22e499)
+![MVP](https://github.com/user-attachments/assets/a8ff5e82-17d8-4dd3-b742-1374ad59ebbd)
 
 # Visão do Produto
 Tornar-se uma grande ajuda para aqueles que visam conhecer sobre a metodologia, um site onde é possível obter diversas informações relacionadas a qualquer instante. 

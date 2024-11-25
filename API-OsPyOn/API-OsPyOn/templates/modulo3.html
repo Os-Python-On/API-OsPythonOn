@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="shortcut icon" href="/static/images/roxa.png" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Python On</title>
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!-- ===================CSS=================== -->
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="#" class="nav__logo">
+                 <img class="logo" src="assets/images/roxa.png" alt=""> Os Python On
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="{{ url_for('index') }}" class="nav__link">Home</a></li>
+
+             <li><a href="{{ url_for('conceito') }}" class="nav__link">Conceito</a></li>
+
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                      Módulos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+
+                       <!--=============== DROPDOWN SUBMENU ===============-->
+                       <li class="dropdown__subitem">
+                          <a href="{{ url_for('modulo1') }}">
+                          <div class="dropdown__link">
+                            <p>Módulo</p>1<i class="ri-add-line dropdown__add"></i>
+                          </div>
+                       </a>
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Definição
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Origem
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Características 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   Transparência 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Inspeção
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Adaptação 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   Product Owner 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Scrum Master 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Dev Team 
+                                </a>
+                             </li>
+                          </ul>
+                          
+                          <li class="dropdown__subitem">
+                             <a href="{{ url_for('modulo2') }}">
+                             <div class="dropdown__link">
+                                Módulo 2<i class="ri-add-line dropdown__add"></i>
+                             </div>
+                          </a>
+     
+                             <ul class="dropdown__submenu">
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Sprints
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Daily Scrum
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Product Backlog
+                                   </a>
+                                </li>
+     
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Sprint Backlog
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Increment
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Time-boxing
+                                   </a>
+                                </li>
+                             </ul>
+     
+                       
+                             <li class="dropdown__subitem">
+                                <a href="{{ url_for('modulo3') }}">
+                                <div class="dropdown__link">
+                                   Módulo 3<i class="ri-add-line dropdown__add"></i>
+                                </div>
+                             </a>
+     
+                                <ul class="dropdown__submenu">
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Auto-organização
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Cross-funcionalidade
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Definition of Done
+                                      </a>
+                                   </li>
+     
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Burndown
+                                      </a>
+                                   </li>
+                                </ul>
+     
+                                <li class="dropdown__subitem">
+                                   <a href="{{ url_for('modulo4') }}">
+                                   <div class="dropdown__link">
+                                      <p>Módulo</p> 4<i class="ri-add-line dropdown__add"></i>
+                                   </div>
+                                </a>
+        
+                                   <ul class="dropdown__submenu">
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Comparação
+                                         </a>
+                                      </li>
+              
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Escalabilidade
+                                         </a>
+                                      </li>
+              
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                           Vantagens
+                                         </a>
+                                      </li>
+     
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Desafios na Implementação
+                                         </a>
+                                      </li>
+                                   </ul>
+     
+                                   <li class="dropdown__subitem">
+                                      <a href="{{ url_for('modulo5') }}">
+                                <div class="dropdown__link">
+                                   Módulo 5<i class="ri-add-line dropdown__add"></i>
+                                </div>
+                             </a>
+     
+                                <ul class="dropdown__submenu">
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Auto-organização
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Cross-funcionalidade
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Definition of Done
+                                      </a>
+                                   </li>
+     
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Burndown
+                                      </a>
+                                      </li>
+                                   </ul>
+                             </ul>
+                  
+                          
+                          <li><a href="{{ url_for('index') }}" class="nav__link">FAQ</a></li>
+                       </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="modulo3">
+    <section class="Auto-organização">
+       <h1 class="h1-modulo3">Auto-organização e Cross-funcionalidade</h1>
+       <h2 class="h2-modulo3">Definição de Auto-organização</h2>
+       <p class="p-modulo3">
+          A Auto-organização no Scrum, como em outras metodologias ágeis, é a capacidade da própria equipe de desenvolvimento se gerir, sem estar baseada em níveis hierárquicos.
+       </p>
+
+       <h2 class="h2-modulo3">Relevância</h2>
+       <p class="p-modulo3">
+          A Auto-organização permite que a equipe desenvolva autonomia, colaboração entre seus membros e compartilhe responsabilidades.
+       </p>
+
+       <h2 class="h2-modulo3">Definição de Cross-funcionalidade</h2>
+       <p class="p-modulo2">
+          A cross-funcionalidade ocorre quando os membros de uma equipe de desenvolvimento possuem diversas habilidades e conseguem desenvolver seu projeto de forma independente.
+       </p>
+    
+       <h2 class="h2-modulo3">Relevância</h2>
+       <p class="p-modulo2">
+          A cross-funcionalidade permite que um grupo disponha de desenvolvedores com várias habilidades, o que confere ao seu projeto várias maneiras de concebê-lo.
+       </p>
+    </section>
+
+    <section class="Burndown">
+       <h1 class="h1-modulo3">Gráfico Burndown</h1>
+       <p class="p-modulo3">
+          Um Gráfico de Burndown é uma ferramenta essencial no desenvolvimento de software ágil, usada para monitorar o progresso de um projeto. Ele representa visualmente o "consumo" da pilha de trabalho restante. No eixo vertical (y), o gráfico mostra a quantidade de trabalho que ainda precisa ser feito, enquanto o eixo horizontal (x) representa o tempo desde o início do projeto até a sua conclusão esperada.
+          <br>
+          A linha descendente ideal reflete uma diminuição constante do trabalho ao longo do tempo, o que ajuda a equipe a visualizar se está no caminho certo para finalizar o projeto dentro do prazo. Se o progresso real da equipe se afasta da linha ideal, isso pode indicar a necessidade de ajustes para manter o cronograma e a produtividade em dia.
+       </p>
+       <!-- Gráfico de Burndown -->
+       <canvas id="burndownChart" width="600" height="400"></canvas>
+
+       <!-- Script para gerar o gráfico -->
+       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+       <script>
+          var ctx = document.getElementById('burndownChart').getContext('2d');
+          var burndownChart = new Chart(ctx, {
+              type: 'line',
+              data: {
+                  labels: ['Dia 1', 'Dia 2', 'Dia 3', 'Dia 4', 'Dia 5', 'Dia 6', 'Dia 7', 'Dia 8', 'Dia 9', 'Dia 10'],
+                  datasets: [
+                      {
+                          label: 'Linha Ideal',
+                          data: [100, 90, 80, 70, 60, 50, 40, 30, 20, 10],
+                          borderColor: 'rgba(75, 192, 192, 1)',
+                          borderWidth: 2,
+                          fill: false,
+                          tension: 0.1
+                      },
+                      {
+                          label: 'Progresso Real',
+                          data: [100, 90, 80, 75, 65, 60, 50, 45, 30, 15],
+                          borderColor: 'rgba(255, 99, 132, 1)',
+                          borderWidth: 2,
+                          fill: false,
+                          tension: 0.1,
+                          pointBackgroundColor: 'rgba(255, 99, 132, 1)'
+                      }
+                  ]
+              },
+              options: {
+                  responsive: true,
+                  scales: {
+                      x: {
+                          title: {
+                              display: true,
+                              text: 'Dias'
+                          }
+                      },
+                      y: {
+                          title: {
+                              display: true,
+                              text: 'Trabalho Restante (%)'
+                          },
+                          beginAtZero: true
+                      }
+                  },
+                  plugins: {
+                      legend: {
+                          position: 'top'
+                      }
+                  }
+              }
+          });
+       </script>
+    </section>
+    <section class="cards-modulo3">
+       <h1 class="h1-modulo3">Time-boxing</h1>
+       <div class="cards-modulo3__container">
+          <div class="cards-modulo3__card" id="card1">
+             <h2 class="cards-modulo3__title">Definição</h2>
+             <p class="cards-modulo3__content">Time-boxing é uma maneira de gerenciamento de tempo que define um período para que uma determinada tarefa seja executada, conferindo um prazo para as entregas ou conclusões das tarefas.
+             </p>
+          </div>
+          <div class="cards-modulo3__card" id="card2">
+             <h2 class="cards-modulo3__title">Relevância</h2>
+             <p class="cards-modulo3__content">A importância do time-boxing é um fator motivador pois limita o trabalho em andamento, força a priorização, demonstra progresso, estimula o encerramento e melhora a previsibilidade.
+             </p>
+          </div>
+          <div class="cards-modulo3__card" id="card3">
+             <h2 class="cards-modulo3__title">Exemplo Prático</h2>
+             <p class="cards-modulo3__content">Suponha que uma criança deve arrumar sua casa antes que os pais dela estejam em casa. Isso a forçará a gerenciar o seu tempo de maneira que possa terminar suas tarefas domésticas.
+             </p>
+          </div>
+       </div>
+    </section>
+    <section class="cards-modulo3">
+       <h1 class="h1-modulo3">Interação</h1>
+       <div class="cards-modulo3__container">
+          <div class="cards-modulo3__card" id="card1">
+             <h2 class="cards-modulo3__title">Definição</h2>
+             <p class="cards-modulo3__content">As iterações na metodologia em Scrum são curtos períodos de tempo que permitem que equipe desenvolva e conclua um conjunto específico de tarefas e funcionalidades.</p>
+          </div>
+          <div class="cards-modulo3__card" id="card2">
+             <h2 class="cards-modulo3__title">Relevância</h2>
+             <p class="cards-modulo3__content">As iterações permitem que um time de desenvolvimento ajuste o gerenciamento do projeto conforme as sprints, pois a cada sprint o cliente pode requisitar novos ajustes, permitindo que a equipe responda às demandas solicitadas.</p>
+          </div>
+          <div class="cards-modulo3__card" id="card3">
+             <h2 class="cards-modulo3__title">Exemplo Prático</h2>
+             <p class="cards-modulo3__content">Após o primeiro tempo de um jogo de futebol um time se reúne para estabelecer novas estratégias e gerenciamento dos seus jogadores.</p>
+          </div>
+       </div>
+    </section>
+    <section class="Mod3-quest">
+       <div class="Mod3-quest-quest">
+          <a href="{{ url_for('quest3') }}" class="Mod3-quest-quest"><b>QUESTIONÁRIO</b></a>
+       </div>
+       <a href="{{ url_for('modulo4') }}" style="margin-right: 20px;"><img src="/static/images/casabranca.png" alt="" style="width: 80%;"></a>
+       <div class="button-section">
+          <a href="{{ url_for('index') }}" class="start-button">Avançar</a>
+      </div>
+    </section>
+       
+ <footer>
+    <a href="https://github.com/Os-Python-On/API-OsPythonOn">
+       <img id="gitfooter" src="/static/images/github.png" alt="GitHub">
+    </a>
+    <p id="pfooter">© Copyright Os Python On 2024</p>
+ </footer>
+
+ <!--=============== MAIN JS ===============-->
+ <script src="/static/js/main.js"></script>
+ <script src="/static/js/faq.js"></script>
+    
+</body>
+</html>

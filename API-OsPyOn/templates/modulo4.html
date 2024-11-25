@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="/static/images/roxa.png" type="image/x-icon"><title>Os Python On</title>
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!-- ===================CSS=================== -->
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="#" class="nav__logo">
+                 <img class="logo" src="/static/images/roxa.png" alt=""> Os Python On
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li><a href="{{ url_for('index') }}" class="nav__link">Home</a></li>
+
+           <li><a href="{{ url_for('conceito') }}" class="nav__link">Conceito</a></li>
+
+               <!--=============== DROPDOWN 1 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                    Módulos  <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+
+                     <!--=============== DROPDOWN SUBMENU ===============-->
+                     <li class="dropdown__subitem">
+                        <a href="{{ url_for('modulo1') }}">
+                        <div class="dropdown__link">
+                          <p>Módulo</p>1
+                        </div>
+                      </a>
+                        
+                        <li class="dropdown__subitem">
+                           <a href="{{ url_for('modulo2') }}">
+                           <div class="dropdown__link">
+                              Módulo 2
+                           </div>
+                        </a>
+   
+                     
+                           <li class="dropdown__subitem">
+                              <a href="{{ url_for('modulo3') }}">
+                              <div class="dropdown__link">
+                                 Módulo 3
+                              </div>
+                           </a>
+   
+   
+                              <li class="dropdown__subitem">
+                                 <a href="{{ url_for('modulo4') }}">
+                                 <div class="dropdown__link">
+                                    <p>Módulo</p> 4
+                                 </div>
+                              </a>
+       
+   
+                                 <li class="dropdown__subitem">
+                                    <a href="{{ url_for('modulo5') }}">
+                              <div class="dropdown__link">
+                                 Módulo 5
+                              </div>
+                           </a>
+   
+                           </ul>
+                
+                        
+                        <li><a href="{{ url_for('index') }}" class="nav__link">FAQ</a></li>
+                     </nav>
+  </header>
+
+<section id="sec1m4" >
+
+<h1 class="h1-modulo4">Scrum vs Outras Metodologias Ágeis</h1>
+
+
+<article id="artm4">
+
+   <div class="wrapper" id="wrapper1">
+      <div class="box highlighted">
+          <p class="main-text">Kanban</p>
+          <p class="additional-text">Kanban significa “cartão” em japonês, isso se assimila ao seu modelo de organização, pois ele utiliza post-its para representar cada tarefa. Um quadro branco é separado em três partes: A fazer, Em andamento e Concluído, assim, separa-se os post-its de acordo com o andamento da atividade.</p>
+      </div>
+      <div class="box primary">
+          <p class="main-text">Extreme Programing (XP)</p>
+          <p class="additional-text">
+              O Extreme Programing é similar ao Scrum, porém ele é focado em desenvolver softwares de qualidade, assim como o Scrum, ele foca em trabalho em equipe, comunicação e respeito entre os integrantes do time.
+          </p>
+      </div>
+      <div class="box secondary">
+          <p class="main-text">Metodologia Tradicional</p>
+          <p class="additional-text">
+              Nas metodologias tradicionais, o planejamento acontece no início de um projeto, depois ele é desenvolvido e entregue ao cliente como um produto final, então o levantamento de requisitos iniciais é muito importante.
+              Ela foca em acelerar o fluxo de trabalho.
+          </p>
+      </div>
+   </div>
+   
+
+
+<div class="wrapper" id="wrapper2">
+   <div class="box highlighted">
+       <p class="main-text">Cascata</p>
+       <p class="additional-text">é uma abordagem tradicional de gerenciamento de projetos, especialmente utilizada no desenvolvimento de software. O Scrum é representado como vários ciclos, revisando tudo após a conclusão de cada Sprint, já a metodologia cascata segue uma linha contínua até a entrega do produto.</p>
+   </div>
+   <div class="box primary">
+       <p class="main-text">Go Horse</p>
+       <p class="additional-text">
+         A metodologia Go Horse foca em apenas desenvolver o que é preciso, sem planejar muito ou olhar para possíveis consequências futuras, é uma metodologia pouco estruturada e as atividades acabam sendo improvisadas.
+       </p>
+   </div>
+   <div class="box secondary">
+       <p class="main-text">Crystal</p>
+       <p class="additional-text">
+         A metodologia Crystal é um conjunto de abordagens ágeis para o desenvolvimento de software que enfatiza a adaptação ao contexto e à situação do projeto, ao invés de seguir um conjunto rígido de regras.
+       </p>
+   </div>
+</div>
+
+
+</article>
+</section>
+
+
+   <section id="sec2m4">
+      
+      <h2 class="h1-modulo4">Escalabilidade do Scrum</h2>
+
+   <article id="art3m4" >
+      <p class="pmodu4" >A escalabilidade do Scrum refere-se à aplicação dos princípios e práticas do Scrum a projetos maiores ou mais complexos, nos quais várias equipes de desenvolvimento trabalham de forma coordenada em um único produto ou conjunto de produtos. O Scrum foi originalmente projetado para equipes pequenas, com cerca de 3 a 9 pessoas, mas muitas organizações enfrentam o desafio de escalar o framework para projetos maiores, com equipes distribuídas ou com múltiplas equipes trabalhando juntas. Escalar o Scrum não significa simplesmente ter mais Scrum Masters ou Product Owners, mas sim criar uma estrutura que mantenha os valores fundamentais do Scrum, como colaboração, transparência e entrega contínua de valor, ao mesmo tempo em que lida com a complexidade de múltiplas equipes.</p>
+
+      <h3 class="subsm4" >Desafios da escalabilidade</h3>
+
+      <p class="pmodu4">Gerenciar grandes projetos é complicado por causa do aumento no nível de complexidade das questões e na quantidade de tarefas a serem desenvolvidas por um pequeno grupo. Além disso, para organizar grandes grupos exige uma organização maior, tentando mantê-las sempre com a mesma visão do projeto. Para isso existem alguns métodos para facilitar esses desafios. Métodos como o Scrum of Scrums, LeSS e o SAFe foram projetados. Geralmente esse projeto seria dividido em várias partes e distribuídas para vários grupos diferentes.</p>
+       
+   </article> 
+      <article id="art2m4" >
+      <div class="product-card">
+        <p class="product-title">Scrum of Scrums</p>
+        <p class="product-description">
+         Scrum of Scrums são reuniões com os representantes de cada grupo com o intuito de discutir sobre o desenvolvimento do projeto, possíveis problemas encontrados, resolver impedimentos, etc.
+
+	Observação: Os representantes não são necessariamente o Scrum Master de cada equipe, pode haver alguém para dar informações mais detalhadas ao Master durante a reunião.</p>
+        <div class="action-corner">
+        </div>
+      </div>
+      
+      <div class="product-card" >
+         <p class="product-title">Large Scale Scrum (LeSS)</p>
+         <p class="product-description">
+            O LeSS procura simplificar os processos para a confecção do produto final, alguns de seus meios são:
+
+	Organização da equipe: Colocando apenas um Master, por exemplo, ele irá coordenar todos os times com mais facilidade, pois sabe o que está acontecendo em cada um sem depender de outras pessoas para informá-lo. (Geralmente utilizado para projetos com 2-4 equipes, em quantidade maior, é recomendado mais Masters)
+	Menos burocracia: Vários níveis hierárquicos aumentam a burocracia, porque precisaria repassar a informação várias vezes para chegar até o destino, então removê-los irá simplificar a comunicação das equipes.
+ </p>
+         <div class="action-corner">
+         </div>
+       </div>
+
+       <div class="product-card">
+         <p class="product-title">SAFe (Scaled Agile Framework)</p>
+         <p class="product-description">
+            Ao contrário do LeSS, o SAFe procura adicionar mais papeis, novas práticas e eventos para tentar organizar projetos muito grandes, ele é geralmente usado em empresas que possuem múltiplos níveis de governança. Em resumo, o SAFe é um framework poderoso para organizações que buscam adotar práticas ágeis em grande escala, proporcionando uma estrutura para coordenar várias equipes e iniciativas de forma eficiente e alinhada aos objetivos estratégicos da empresa. No entanto, sua implementação requer cuidado para evitar sobrecarga de processos e garantir que os benefícios da agilidade sejam mantidos.
+         </p>
+         <div class="action-corner">
+         </div>
+       </div>
+      </article>
+
+  </section>
+
+<section id="sec3m4">
+  <h4 class="h1-modulo4">Vantagens na Implementação do Scrum</h4>
+
+
+
+  <p class="pmodu42"><strong>Maior flexibilidade:</strong> O Scrum permite rápida adaptação a mudanças, utilizando sprints curtos para ajustar o projeto conforme novas demandas surgem. Isso garante flexibilidade sem depender de um plano rígido.</p>
+   
+  <p class="pmodu42"><strong>Comunicação e colaboração eficazes:</strong> Com os papeis bem definidos o Scrum promove uma interação excelente entre a equipe, todos os membros compartilham o que estão fazendo, o que foi concluído e quais são os próximos passos. </p>
+   
+  <p class="pmodu42"><strong>Entrega de valor:</strong> O Scrum usa sprints curtos para entregar partes do produto de forma incremental, permitindo feedback e ajustes contínuos, o que aumenta a satisfação do cliente.</p>
+   
+  <p class="pmodu42"><strong>Priorização de funcionalidade:</strong> A retrospectiva ao final de cada sprint ajuda a identificar áreas de melhoria, promovendo um processo iterativo e evolutivo para aumentar a eficiência e a qualidade.</p>
+   
+
+  <h4 class="h1-modulo4">Desafios na Implementação do Scrum</h4>
+
+  <p class="pmodu42"><strong>Resistência à Mudança:</strong> A transição para o Scrum frequentemente exige uma mudança significativa na mentalidade e na forma de trabalhar. As equipes podem estar acostumadas a outros métodos e podem não se adaptar rapidamente a essa mudança.</p>
+
+  <p class="pmodu42"><strong>Falta de Compreensão dos Papéis no Scrum:</strong> Um dos maiores desafios iniciais está relacionado à má compreensão dos papéis dentro do Scrum. Isso pode incluir a relutância de gestores que preferem uma abordagem mais hierárquica ou de equipes que não estão confortáveis com a autonomia.</p>
+
+  <p class="pmodu42"><strong>Falta de Compromisso com as Cerimônias do Scrum:</strong> As cerimônias do Scrum (planning, daily stand-up, sprint review e retrospective) são cruciais para o sucesso do framework. No entanto, muitas equipes tendem a subestimar sua importância, resultando em reuniões mal organizadas ou superficiais.</p>
+
+  <p class="pmodu42"><strong>Dificuldade em lidar com mudanças constantes:</strong> Scrum é uma metodologia ágil, e mudanças são esperadas, mas mudanças constantes de escopo ou falta de foco no backlog podem levar a um ambiente caótico, prejudicando o desempenho da equipe.</p>
+
+  <p class="pmodu42"><strong>Estresse e pressão constante:</strong> O ciclo contínuo de sprints e a pressão para entregar em períodos curtos podem levar a um ambiente estressante e a possíveis casos de burnout na equipe.</p>
+</section>
+
+
+
+
+<section class="secmenu" >
+
+<a href="{{ url_for('quest4') }}">
+   <button class="botaomenu">Avaliação</button>
+</a>
+
+   <a href="{{ url_for('index') }}">
+      <img class="casamodulos" src="/static/images/casabranca.png" alt="">
+   </a>
+   
+<a href="{{ url_for('modulo5') }}">
+   <button class="botaomenu">Continuar</button>
+</a>
+
+</section>
+
+    <footer> 
+        <a href="https://github.com/Os-Python-On/API-OsPythonOn">
+            <img id="gitfooter" src="/static/images/github.png" alt="GitHub">
+        </a>
+            <p id="pfooter" >© Copyright Os Python On 2024</p> 
+    </footer>
+
+     <!--=============== MAIN JS ===============-->
+ <script src="/static/js/main.js"></script>
+    
+</body>
+</html>

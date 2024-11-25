@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="/static/images/roxa.png" type="image/x-icon"><title>Os Python On</title>
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!-- ===================CSS=================== -->
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="#" class="nav__logo">
+                 <img class="logo" src="assets/images/roxa.png" alt=""> Os Python On
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="{{ url_for('index') }}" class="nav__link">Home</a></li>
+
+             <li><a href="{{ url_for('conceito') }}" class="nav__link">Conceito</a></li>
+
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                      Módulos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+
+                       <!--=============== DROPDOWN SUBMENU ===============-->
+                       <li class="dropdown__subitem">
+                          <a href="modulo1.html">
+                          <div class="dropdown__link">
+                            <p>Módulo</p>1<i class="ri-add-line dropdown__add"></i>
+                          </div>
+                       </a>
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Definição
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Origem
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Características 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   Transparência 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Inspeção
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Adaptação 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   Product Owner 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Scrum Master 
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    Dev Team 
+                                </a>
+                             </li>
+                          </ul>
+                          
+                          <li class="dropdown__subitem">
+                             <a href="modulo2.html">
+                             <div class="dropdown__link">
+                                Módulo 2<i class="ri-add-line dropdown__add"></i>
+                             </div>
+                          </a>
+     
+                             <ul class="dropdown__submenu">
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Sprints
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Daily Scrum
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Product Backlog
+                                   </a>
+                                </li>
+     
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Sprint Backlog
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Increment
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="#" class="dropdown__sublink">
+                                       Time-boxing
+                                   </a>
+                                </li>
+                             </ul>
+     
+                       
+                             <li class="dropdown__subitem">
+                                <a href="modulo3.html">
+                                <div class="dropdown__link">
+                                   Módulo 3<i class="ri-add-line dropdown__add"></i>
+                                </div>
+                             </a>
+     
+                                <ul class="dropdown__submenu">
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Auto-organização
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Cross-funcionalidade
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Definition of Done
+                                      </a>
+                                   </li>
+     
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Burndown
+                                      </a>
+                                   </li>
+                                </ul>
+     
+                                <li class="dropdown__subitem">
+                                   <a href="modulo4.html">
+                                   <div class="dropdown__link">
+                                      <p>Módulo</p> 4<i class="ri-add-line dropdown__add"></i>
+                                   </div>
+                                </a>
+        
+                                   <ul class="dropdown__submenu">
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Comparação
+                                         </a>
+                                      </li>
+              
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Escalabilidade
+                                         </a>
+                                      </li>
+              
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                           Vantagens
+                                         </a>
+                                      </li>
+     
+                                      <li>
+                                         <a href="#" class="dropdown__sublink">
+                                             Desafios na Implementação
+                                         </a>
+                                      </li>
+                                   </ul>
+     
+                                   <li class="dropdown__subitem">
+                                      <a href="modulo5.html">
+                                      <div class="dropdown__link">
+                                   Módulo 5<i class="ri-add-line dropdown__add"></i>
+                                </div>
+                             </a>
+     
+                                <ul class="dropdown__submenu">
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Auto-organização
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Cross-funcionalidade
+                                      </a>
+                                   </li>
+           
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Definition of Done
+                                      </a>
+                                   </li>
+     
+                                   <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          Burndown
+                                      </a>
+                                      </li>
+                                   </ul>
+                             </ul>
+                  
+                          
+                          <li><a href="{{ url_for('index') }}" class="nav__link">FAQ</a></li>
+                       </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="modulo2">
+    <section class="Eventos-no-Scrum-m2">
+        <h1 class="h1-modulo2">Eventos no Scrum</h1>
+        <h2 class="h2-modulo2">Sprint</h2>
+        <p class="p-modulo2">
+            É um ciclo de trabalho fixo, durante o qual a equipe se dedica a concluir um conjunto específico de tarefas ou funcionalidades. Ao final da sprint, espera-se ter uma entrega funcional e potencialmente utilizável. O ciclo inclui planejamento, execução, reuniões diárias de acompanhamento e uma revisão para avaliar o progresso e identificar melhorias para o próximo ciclo.
+        </p>
+
+        <h2 class="h2-modulo2">Sprint Planning</h2>
+        <p class="p-modulo2">
+            Uma reunião que ocorre no início de cada sprint, onde a equipe define quais itens do backlog serão trabalhados. É também discutido como o trabalho será realizado e quais são os objetivos da sprint.
+        </p>
+
+        <h2 class="h2-modulo2">Daily Scrum</h2>
+        <p class="p-modulo2">
+            Uma reunião que ocorre no início de cada sprint, onde a equipe define quais itens do backlog serão trabalhados. É também discutido como o trabalho será realizado e quais são os objetivos da sprint.
+        </p>
+    
+        <h2 class="h2-modulo2">Sprint Review</h2>
+        <p class="p-modulo2">
+            Uma reunião que ocorre no início de cada sprint, onde a equipe define quais itens do backlog serão trabÉ uma reunião realizada no final de cada sprint, onde a equipe apresenta o que foi desenvolvido durante o ciclo. O objetivo é demonstrar as funcionalidades entregues, coletar feedback dos stakeholders e ajustar as prioridades do Product Backlog para as próximas sprints.alhados. É também discutido como o trabalho será realizado e quais são os objetivos da sprint.
+        </p>
+    </section>
+
+    <section class="Artefatos-do-Scrum">
+        <h1 class="h1-modulo2">Artefatos do Scrum</h1>
+        <div class="card-modulo2">
+            <div class="card-details-modulo2">
+                <p class="text-title-modulo2">Product Backlog</p>
+                <p class="text-body-modulo2">O product backlog é uma lista priorizada de todas as funcionalidades, melhorias e correções que devem ser feitas no produto. É um documento dinâmico que evolui ao longo do tempo, refletindo as necessidades do cliente e as mudanças no mercado. Os itens do product backlog, chamados de "itens de backlog", podem incluir bugs, requisitos técnicos e outras tarefas.</p>
+            </div>
+            <button class="card-button-modulo2">More info</button>
+        </div>
+        <div class="card-modulo2">
+            <div class="card-details-modulo2">
+                <p class="text-title-modulo2">Sprint Backlog</p>
+                <p class="text-body-modulo2">O sprint backlog é uma lista dos itens do product backlog que foram selecionados para serem trabalhados durante um sprint específico. Ele contém as tarefas necessárias para completar esses itens e é gerenciado pela equipe de desenvolvimento. O sprint backlog é um plano detalhado que guia o trabalho da equipe durante o sprint, e é atualizado diariamente conforme o progresso avança.</p>
+            </div>
+            <button class="card-button-modulo2">More info</button>
+        </div>
+        <div class="card-modulo2">
+            <div class="card-details-modulo2">
+                <p class="text-title-modulo2">Increment</p>
+                <p class="text-body-modulo2">O increment é a soma de todos os itens do product backlog que foram completados durante um sprint, além de todos os incrementos anteriores. Ao final de cada sprint, a equipe deve ter um incremento que é potencialmente utilizável, ou seja, pode ser lançado ao mercado ou para os usuários finais. Um increment é uma versão do produto que inclui todas as funcionalidades concluídas até aquele ponto.</p>
+            </div>
+            <button class="card-button-modulo2">More info</button>
+        </div>
+        <p class="p-card-modulo2">Esses três componentes trabalham juntos para garantir que o desenvolvimento do produto seja organizado, priorizado e orientado a resultados, permitindo uma entrega contínua de valor ao cliente.
+        </p>
+    <!--=====accordion======-->
+         <div class="wrapper">
+            <h4 id="h4duvidas">Definition-of-Done (DoD)</h4>
+            
+        <div id="container2">
+            <div class="accordion2">
+                <button class="accordion-header2">
+                    <span> ➤ Definição.</span>
+                    <i class="fa-solid fa-chevron-down arrow"></i>
+                </button>
+                <div class="accordion-body2">
+                    <p>
+                        ❯ É um conjunto claro e acordado de critérios que determinam quando uma tarefa, funcionalidade ou história de usuário é considerada concluída em um contexto ágil, especialmente no Scrum.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="accordion2">
+                <button class="accordion-header2">
+                <span class="vilotrol"> ➤ Importância.</span>
+                <i class="fa-solid fa-chevron-down arrow"></i>
+            </button>
+                <div class="accordion-body2">
+                    <p>
+                        ❯ A Definition of Done (DoD) no Scrum é crucial porque garante que todos na equipe tenham uma visão clara e comum sobre o que significa uma tarefa estar "pronta". Ela assegura que as entregas atendam a padrões de qualidade, estão completamente testadas e integradas, e estão prontas para serem liberadas. A DoD aumenta a transparência, evita mal-entendidos e ajuda a manter a consistência no processo de desenvolvimento, assegurando que o trabalho cumpriu todos os critérios acordados antes de ser considerado concluído.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="accordion2">
+                <button class="accordion-header2">
+                <span>➤ Sobre os requisitos.</span>
+                <i class="fa-solid fa-chevron-down arrow"></i>
+            </button>
+                <div class="accordion-body2">
+                    <p>
+                        ❯ Esse valor depende da demanda do cliente, como é o mínimo esperado de uma entrega, não deve-se atribuir um DoD complexo, isso pode atrasar as entregas da equipe e sobrecarregá-los. 
+                        Um Definition of Done muito simples, por outro lado, acaba não entregando todos os pontos apresentados pelo cliente, gerando um produto abaixo do esperado.
+                            Tarefas diferentes podem possuir DoDs diferentes, criar uma página HTML tem requisitos diferentes de elaborar uma apresentação, por exemplo.
+                    </p>
+                </div>
+            </div>
+            </div>
+    
+    
+            <h4 id="h4duvidas">Definition-of-Ready (DoR)</h4>
+            
+            <div id="container2">
+            <div class="accordion2">
+                <button class="accordion-header2">
+                    <span> ➤ Definição.</span>
+                    <i class="fa-solid fa-chevron-down arrow"></i>
+                </button>
+                <div class="accordion-body2">
+                    <p>
+                        ❯ O Definition of Ready (DoR) é um elemento da metodologia Scrum, mas que também é empregado em outras metodologias ágeis, tal como no Kanban, utilizado para definir se uma tarefa está ou não pronta para ser executada pelo time de desenvolvimento.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="accordion2">
+                <button class="accordion-header2">
+                <span> ➤ Relevância.</span>
+                <i class="fa-solid fa-chevron-down arrow"></i>
+            </button>
+                <div class="accordion-body2">
+                    <p>
+                        ❯ A equipe de desenvolvimento não poderá dar prosseguimento nas suas tarefas se ela não dispor de todos os recursos necessários para a execução de desenvolvimento.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="accordion2">
+                <button class="accordion-header2">
+                <span>➤ Exemplo.</span>
+                <i class="fa-solid fa-chevron-down arrow"></i>
+            </button>
+                <div class="accordion-body2">
+                    <p>
+                        ❯ Imagine que para se fazer uma receita de bolo, é necessário dispor de todos os ingredientes e utensílios. Se falta algum ingrediente ou utensílio, não podemos dar prosseguimento.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+         <!--=====fim do accordion======-->
+
+</main>                 
+
+<section class="Mod3-quest">
+    <div class="Mod3-quest-quest">
+       <a href="{{ url_for('quest2') }}" class="Mod3-quest-quest"><b>QUESTIONÁRIO</b></a>
+    </div>
+    <a href="{{ url_for('index') }}" style="margin-right: 20px;"><img src="/static/images/casabranca.png" alt="" style="width: 80%;"></a>
+    <div class="button-section">
+       <a href="{{ url_for('modulo3') }}" class="start-button">Avançar</a>
+   </div>
+ </section>
+ 
+
+
+<footer> 
+
+<a href="https://github.com/Os-Python-On/API-OsPythonOn">
+<img id="gitfooter" src="/static/images/github.png" alt="GitHub">
+</a>
+<p id="pfooter" >© Copyright Os Python On 2024</p> 
+</footer>
+<!--=============== MAIN JS ===============-->
+<script src="/static/js/main.js"></script>
+<script src="/static/js/modulo2.js"></script>
+</body>
+</html>

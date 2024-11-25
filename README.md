@@ -64,7 +64,8 @@ Fornecer informações completas sobre todos os tópicos abordados, fazendo com 
 Apresentação das funcionalidades
 Confira a seguir uma demonstração das funcionalidades para cada tipo de usuário do sistema:
 
-![video_API ]([https://github.com/user-attachments/assets/1d09831c-918e-4866-a779-aa6b70467e37](https://github.com/Os-Python-On/API-OsPythonOn/issues/4#issue-2688907238))
+![Gif da API 3ª sprint Os Python On](https://github.com/user-attachments/assets/e149ee32-868e-4760-a9d9-71652a6da4d5)
+https://youtu.be/m6xBKumPmh0
 
 ## Tecnologias Utilizadas
 

@@ -157,7 +157,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 3- pip install -r requirements.txt
 
-4- .\venv\Scripts\activate
+4- python.exe -m pip install --upgrade pip
 
 5- flask run
 

@@ -27,8 +27,8 @@ Sprint | Previsão | Status|
 |Sprint 02| 07/10 a 27/10 | Concluído |
 |Sprint 02 Review | 28/10 a 01/11 | Concluído |
 |Sprint 03| 04/11 a 24/11 | Concluído |
-|Sprint 03 Review | 25/11 a 29/11 | Em Progresso|
-|Feira de Soluções| 12/12 | A fazer |
+|Sprint 03 Review | 25/11 a 29/11 | Concluído |
+|Feira de Soluções| 12/12 | Em Progresso |
 
 # Objetivo do Projeto
 Este projeto tem como objetivo a Criação de um produto em forma de site para nosso Cliente, Professor Antônio Egydio.

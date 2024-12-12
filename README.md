@@ -90,7 +90,7 @@ https://youtu.be/m6xBKumPmh0
 | Média | Como visitante do site eu quero questões do diversos níveis para testar o conhecimento com perguntas fáceis, médias e difíceis | 4 | 2 |
 | Média | Como visitante do site eu quero um conteúdo intermediário para conseguir me aprofundar | 4 | 2 |
 | Média | Como cliente eu quero o site totalmente funcional, sem erros para que os usuários não tenham problemas | 6 | 3 |
-| Média | Como cliente eu quero o site rodando na AWS para que meus funcionários e clientes consigam acessar o site a qualquer hora em qualquer lugar | 4 | 3 |
+| Média | Como cliente eu quero o site hospedado na AWS para que meus funcionários e clientes consigam acessar o site a qualquer hora em qualquer lugar | 4 | 3 |
 | Baixa | Como cliente eu quero o site todos os módulos responsivos para que seja acessível em qualquer plataforma | 3 | 3 |
 
 ## Sprint 1. Concepção

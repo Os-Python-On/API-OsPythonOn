@@ -127,12 +127,12 @@ https://youtu.be/m6xBKumPmh0
 - [x] Criar novas páginas para os conteúdos
       
 ## Sprint 3 . Implementação
-- [x] Site funcionando na AWS
-- [x] Responsividade de todo o site(modulos e questionarios)
+- [x] Deploy do site nos servidores da AWS
+- [x] Aplicação da Responsividade de todo o site(modulos e questionarios)
 - [x] Site completamente funcional
 - [x] Conteúdo finalizado
-- [x] Todo o questionário no site
-- [x] Correção de Bugs
+- [x] Adicionar questionário no site
+- [x] Resolução de inconsistências e erros
 - [x] Pequenas melhorias no design do site
 
 ## ❓ Como usar o site no seu computador - Windows
